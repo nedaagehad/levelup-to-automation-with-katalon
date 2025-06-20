@@ -1,0 +1,14 @@
+{
+  "id": "Test Suites/Reserve A Medical Appointment",
+  "name": "Reserve A Medical Appointment",
+  "reportFolder": "C:\\Users\\user\\Katalon Studio\\Levelup To Automation With Katalon\\Reports\\20250620_120309\\Reserve A Medical Appointment\\20250620_120309",
+  "startTime": 1750410201405,
+  "endTime": 1750410223850,
+  "totalPassedTestCases": "4",
+  "totalErrorTestCases": "0",
+  "totalFailedTestCases": "0",
+  "totalTestCases": "4",
+  "totalIncompleteTestCases": "0",
+  "totalSkippedTestCases": "0",
+  "description": "Test the Appointment reservation on different browsers."
+}

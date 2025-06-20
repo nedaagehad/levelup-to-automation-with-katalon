@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Reserve Medical Appointment Suite,Chrome 137.0.7151.119,"testing the flow of login, making and appointment, then logging out of the system.",,20-06-2025 12:00:54,20-06-2025 12:01:06,12.832s,PASSED
+,,,,,,,
+Test Cases/Week 1 - Kickstart Test Automation/Reserve A Medical Appointment,Chrome 137.0.7151.119,,,20-06-2025 12:00:54,20-06-2025 12:01:06,12.030s,PASSED
+"callTestCase(findTestCase(""Week 1 - Kickstart Test Automation/Login""), [""UserName"":"""", ""Password"":""""], STOP_ON_FAILURE)",Chrome 137.0.7151.119,,,20-06-2025 12:00:54,20-06-2025 12:01:01,6.306s,PASSED
+"callTestCase(findTestCase(""Week 1 - Kickstart Test Automation/Make Appointment""), [:], STOP_ON_FAILURE)",Chrome 137.0.7151.119,,,20-06-2025 12:01:01,20-06-2025 12:01:05,3.818s,PASSED
+"callTestCase(findTestCase(""Week 1 - Kickstart Test Automation/Logout""), [:], STOP_ON_FAILURE)",Chrome 137.0.7151.119,,,20-06-2025 12:01:05,20-06-2025 12:01:06,1.539s,PASSED

@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Reserve Medical Appointment Suite,,"testing the flow of login, making and appointment, then logging out of the system.",,20-06-2025 12:01:11,20-06-2025 12:01:12,1.837s,FAILED
+,,,,,,,
+Test Cases/Week 1 - Kickstart Test Automation/Reserve A Medical Appointment,,,,20-06-2025 12:01:11,20-06-2025 12:01:12,1.250s,FAILED
+"callTestCase(findTestCase(""Week 1 - Kickstart Test Automation/Login""), [""UserName"":"""", ""Password"":""""], STOP_ON_FAILURE)",,,,20-06-2025 12:01:12,20-06-2025 12:01:12,0.926s,FAILED

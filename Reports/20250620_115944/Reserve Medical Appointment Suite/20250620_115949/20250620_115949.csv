@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Reserve Medical Appointment Suite,Edge Chromium 137.0.3296.83,"testing the flow of login, making and appointment, then logging out of the system.",,20-06-2025 12:00:36,20-06-2025 12:00:50,14.023s,PASSED
+,,,,,,,
+Test Cases/Week 1 - Kickstart Test Automation/Reserve A Medical Appointment,Edge Chromium 137.0.3296.83,,,20-06-2025 12:00:36,20-06-2025 12:00:49,12.188s,PASSED
+"callTestCase(findTestCase(""Week 1 - Kickstart Test Automation/Login""), [""UserName"":"""", ""Password"":""""], STOP_ON_FAILURE)",Edge Chromium 137.0.3296.83,,,20-06-2025 12:00:37,20-06-2025 12:00:43,6.452s,PASSED
+"callTestCase(findTestCase(""Week 1 - Kickstart Test Automation/Make Appointment""), [:], STOP_ON_FAILURE)",Edge Chromium 137.0.3296.83,,,20-06-2025 12:00:43,20-06-2025 12:00:47,3.826s,PASSED
+"callTestCase(findTestCase(""Week 1 - Kickstart Test Automation/Logout""), [:], STOP_ON_FAILURE)",Edge Chromium 137.0.3296.83,,,20-06-2025 12:00:47,20-06-2025 12:00:49,1.589s,PASSED

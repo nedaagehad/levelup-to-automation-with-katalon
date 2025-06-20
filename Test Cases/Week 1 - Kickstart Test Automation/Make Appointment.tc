@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test case is to test the Make Apointment flow.</description>
+   <name>Make Appointment</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3982d273-0a84-4da2-a4eb-5e5c7e70cb2b</testCaseGuid>
+</TestCaseEntity>

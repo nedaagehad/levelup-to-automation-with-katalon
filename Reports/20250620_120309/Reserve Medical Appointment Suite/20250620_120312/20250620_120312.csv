@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Reserve Medical Appointment Suite,Firefox 139.0.4,"testing the flow of login, making and appointment, then logging out of the system.",,20-06-2025 12:03:24,20-06-2025 12:03:43,19.442s,PASSED
+,,,,,,,
+Test Cases/Week 1 - Kickstart Test Automation/Reserve A Medical Appointment,Firefox 139.0.4,,,20-06-2025 12:03:25,20-06-2025 12:03:42,17.649s,PASSED
+"callTestCase(findTestCase(""Week 1 - Kickstart Test Automation/Login""), [""UserName"":"""", ""Password"":""""], STOP_ON_FAILURE)",Firefox 139.0.4,,,20-06-2025 12:03:25,20-06-2025 12:03:36,10.887s,PASSED
+"callTestCase(findTestCase(""Week 1 - Kickstart Test Automation/Make Appointment""), [:], STOP_ON_FAILURE)",Firefox 139.0.4,,,20-06-2025 12:03:36,20-06-2025 12:03:41,4.322s,PASSED
+"callTestCase(findTestCase(""Week 1 - Kickstart Test Automation/Logout""), [:], STOP_ON_FAILURE)",Firefox 139.0.4,,,20-06-2025 12:03:41,20-06-2025 12:03:42,1.752s,PASSED
