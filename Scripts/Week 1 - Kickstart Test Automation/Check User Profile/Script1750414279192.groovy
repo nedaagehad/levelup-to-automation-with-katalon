@@ -19,9 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Week 1 - Kickstart Test Automation/Login'), [('UserName') : '', ('Password') : ''], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/i_fa fa-bars'))
+WebUI.click(findTestObject('Object Repository/CURA Healthcare Service/Home Page/i_fa fa-bars'))
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Profile'))
+WebUI.click(findTestObject('Object Repository/CURA Healthcare Service/Home Page/a_Profile'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_CURA Healthcare Service/h2_Profile'), 'Profile')
+WebUI.verifyElementText(findTestObject('Object Repository/CURA Healthcare Service/Home Page/h2_Profile'), 'Profile')
 
