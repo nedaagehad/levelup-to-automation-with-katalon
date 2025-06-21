@@ -23,9 +23,9 @@ WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
 WebUI.click(findTestObject('Object Repository/CURA Healthcare Service/Home Page/a_Make Appointment'))
 
-WebUI.setText(findTestObject('Object Repository/CURA Healthcare Service/Login/input_Username_username'), 'John Doe')
+WebUI.setText(findTestObject('Object Repository/CURA Healthcare Service/Login/input_Username_username'), UserName)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/CURA Healthcare Service/Login/input_Password_password'), 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
+WebUI.setEncryptedText(findTestObject('Object Repository/CURA Healthcare Service/Login/input_Password_password'), Password)
 
 WebUI.click(findTestObject('Object Repository/CURA Healthcare Service/Login/button_Login'))
 

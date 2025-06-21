@@ -31,4 +31,5 @@ This project serves as the applied hands-on practice for what I've learned from 
 
 1. Testing Data Binding and Data Driven tests.
 2. Self healing.
+3. StudioAssist.
 

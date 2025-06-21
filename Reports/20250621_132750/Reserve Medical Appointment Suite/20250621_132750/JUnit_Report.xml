@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Reserve Medical Appointment Suite" time="34.486" tests="1" failures="0" errors="0">
+   <testsuite name="Reserve Medical Appointment Suite" tests="1" failures="0" errors="0" time="34.486" skipped="0" timestamp="21-06-2025T13:27:56" hostname="user - host.docker.internal" id="Test Suites/Reserve Medical Appointment Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\user\\Katalon Studio\\Levelup To Automation With Katalon\\Reports\\20250621_132750\\Reserve Medical Appointment Suite\\20250621_132750"/>
+         <property name="logFiles" value="C:\\Users\\user\\Katalon Studio\\Levelup To Automation With Katalon\\Reports\\20250621_132750\\Reserve Medical Appointment Suite\\20250621_132750\\console0.log, C:\\Users\\user\\Katalon Studio\\Levelup To Automation With Katalon\\Reports\\20250621_132750\\Reserve Medical Appointment Suite\\20250621_132750\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="user - host.docker.internal"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.2.1.0"/>
+         <property name="browser" value="Chrome 137.0.7151.119"/>
+         <property name="userFullName" value="Nedaa Gehad"/>
+         <property name="hostAddress" value="192.168.100.16"/>
+         <property name="sessionId" value="6798daf29b17882882e79bf7213d4559"/>
+         <property name="projectName" value="Levelup To Automation With Katalon"/>
+         <property name="seleniumVersion" value="4.28.1"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Week 1 - Kickstart Test Automation/Reserve A Medical Appointment" time="33.334" classname="Test Cases/Week 1 - Kickstart Test Automation/Reserve A Medical Appointment" status="PASSED">
+         <system-out><![CDATA[21-06-2025T13:27:57 - [TEST_CASE][PASSED] - Test Cases/Week 1 - Kickstart Test Automation/Reserve A Medical Appointment: Test Cases/Week 1 - Kickstart Test Automation/Reserve A Medical Appointment
+
+21-06-2025T13:27:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Week 1 - Kickstart Test Automation/Login"), ["UserName":"", "Password":""], STOP_ON_FAILURE): Call Test Case 'Test Cases/Week 1 - Kickstart Test Automation/Login' successfully
+
+21-06-2025T13:27:58 - [TEST_CASE][PASSED] - Test Cases/Week 1 - Kickstart Test Automation/Login: Test Cases/Week 1 - Kickstart Test Automation/Login
+
+21-06-2025T13:27:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-06-2025T13:27:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-06-2025T13:28:01 - [MESSAGE][INFO] - Action delay is set to 1,000 milliseconds
+
+21-06-2025T13:28:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-06-2025T13:28:03 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+21-06-2025T13:28:06 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+21-06-2025T13:28:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CURA Healthcare Service/Home Page/a_Make Appointment")): Object: 'Object Repository/CURA Healthcare Service/Home Page/a_Make Appointment' is clicked on
+
+21-06-2025T13:28:08 - [MESSAGE][PASSED] - Object: 'Object Repository/CURA Healthcare Service/Home Page/a_Make Appointment' is clicked on
+
+21-06-2025T13:28:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CURA Healthcare Service/Login/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/CURA Healthcare Service/Login/input_Username_username'
+
+21-06-2025T13:28:10 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/CURA Healthcare Service/Login/input_Username_username'
+
+21-06-2025T13:28:10 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/CURA Healthcare Service/Login/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/CURA Healthcare Service/Login/input_Password_password'
+
+21-06-2025T13:28:12 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/CURA Healthcare Service/Login/input_Password_password'
+
+21-06-2025T13:28:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CURA Healthcare Service/Login/button_Login")): Object: 'Object Repository/CURA Healthcare Service/Login/button_Login' is clicked on
+
+21-06-2025T13:28:13 - [MESSAGE][PASSED] - Object: 'Object Repository/CURA Healthcare Service/Login/button_Login' is clicked on
+
+21-06-2025T13:28:13 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/CURA Healthcare Service/Home Page/h2_Make Appointment"), "Make Appointment"): Actual text and expected text of test object 'Object Repository/CURA Healthcare Service/Home Page/h2_Make Appointment' are matched.
+
+21-06-2025T13:28:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CURA Healthcare Service/Home Page/h2_Make Appointment' are matched.
+
+21-06-2025T13:28:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Week 1 - Kickstart Test Automation/Login' successfully
+
+21-06-2025T13:28:14 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Week 1 - Kickstart Test Automation/Make Appointment"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Week 1 - Kickstart Test Automation/Make Appointment' successfully
+
+21-06-2025T13:28:14 - [TEST_CASE][PASSED] - Test Cases/Week 1 - Kickstart Test Automation/Make Appointment: Test Cases/Week 1 - Kickstart Test Automation/Make Appointment
+
+21-06-2025T13:28:14 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/CURA Healthcare Service/Make Appointment/select_Tokyo CURA Healthcare Center        _5b4107"), "Seoul CURA Healthcare Center", true): All options with value 'Seoul CURA Healthcare Center' are selected in object 'Object Repository/CURA Healthcare Service/Make Appointment/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+
+21-06-2025T13:28:16 - [MESSAGE][PASSED] - All options with value 'Seoul CURA Healthcare Center' are selected in object 'Object Repository/CURA Healthcare Service/Make Appointment/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+
+21-06-2025T13:28:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CURA Healthcare Service/Make Appointment/input_Apply for hospital readmission_hospit_63901f")): Object: 'Object Repository/CURA Healthcare Service/Make Appointment/input_Apply for hospital readmission_hospit_63901f' is clicked on
+
+21-06-2025T13:28:17 - [MESSAGE][PASSED] - Object: 'Object Repository/CURA Healthcare Service/Make Appointment/input_Apply for hospital readmission_hospit_63901f' is clicked on
+
+21-06-2025T13:28:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CURA Healthcare Service/Make Appointment/label_Medicaid")): Object: 'Object Repository/CURA Healthcare Service/Make Appointment/label_Medicaid' is clicked on
+
+21-06-2025T13:28:19 - [MESSAGE][PASSED] - Object: 'Object Repository/CURA Healthcare Service/Make Appointment/label_Medicaid' is clicked on
+
+21-06-2025T13:28:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CURA Healthcare Service/Make Appointment/span_Visit Date (Required)_glyphicon glyphi_cada34")): Object: 'Object Repository/CURA Healthcare Service/Make Appointment/span_Visit Date (Required)_glyphicon glyphi_cada34' is clicked on
+
+21-06-2025T13:28:20 - [MESSAGE][PASSED] - Object: 'Object Repository/CURA Healthcare Service/Make Appointment/span_Visit Date (Required)_glyphicon glyphi_cada34' is clicked on
+
+21-06-2025T13:28:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CURA Healthcare Service/Make Appointment/td_20")): Object: 'Object Repository/CURA Healthcare Service/Make Appointment/td_20' is clicked on
+
+21-06-2025T13:28:22 - [MESSAGE][PASSED] - Object: 'Object Repository/CURA Healthcare Service/Make Appointment/td_20' is clicked on
+
+21-06-2025T13:28:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CURA Healthcare Service/Make Appointment/textarea_Comment_comment"), "test comment"): Text 'test comment' is set on object 'Object Repository/CURA Healthcare Service/Make Appointment/textarea_Comment_comment'
+
+21-06-2025T13:28:23 - [MESSAGE][PASSED] - Text 'test comment' is set on object 'Object Repository/CURA Healthcare Service/Make Appointment/textarea_Comment_comment'
+
+21-06-2025T13:28:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CURA Healthcare Service/Make Appointment/button_Book Appointment")): Object: 'Object Repository/CURA Healthcare Service/Make Appointment/button_Book Appointment' is clicked on
+
+21-06-2025T13:28:25 - [MESSAGE][PASSED] - Object: 'Object Repository/CURA Healthcare Service/Make Appointment/button_Book Appointment' is clicked on
+
+21-06-2025T13:28:25 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/CURA Healthcare Service/Make Appointment/h2_Appointment Confirmation"), "Appointment Confirmation"): Actual text and expected text of test object 'Object Repository/CURA Healthcare Service/Make Appointment/h2_Appointment Confirmation' are matched.
+
+21-06-2025T13:28:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CURA Healthcare Service/Make Appointment/h2_Appointment Confirmation' are matched.
+
+21-06-2025T13:28:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Week 1 - Kickstart Test Automation/Make Appointment' successfully
+
+21-06-2025T13:28:26 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Week 1 - Kickstart Test Automation/Logout"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Week 1 - Kickstart Test Automation/Logout' successfully
+
+21-06-2025T13:28:26 - [TEST_CASE][PASSED] - Test Cases/Week 1 - Kickstart Test Automation/Logout: Test Cases/Week 1 - Kickstart Test Automation/Logout
+
+21-06-2025T13:28:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CURA Healthcare Service/Logout/i_CURA Healthcare_fa fa-bars")): Object: 'Object Repository/CURA Healthcare Service/Logout/i_CURA Healthcare_fa fa-bars' is clicked on
+
+21-06-2025T13:28:27 - [MESSAGE][PASSED] - Object: 'Object Repository/CURA Healthcare Service/Logout/i_CURA Healthcare_fa fa-bars' is clicked on
+
+21-06-2025T13:28:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CURA Healthcare Service/Logout/a_Logout")): Object: 'Object Repository/CURA Healthcare Service/Logout/a_Logout' is clicked on
+
+21-06-2025T13:28:29 - [MESSAGE][PASSED] - Object: 'Object Repository/CURA Healthcare Service/Logout/a_Logout' is clicked on
+
+21-06-2025T13:28:29 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+21-06-2025T13:28:30 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+21-06-2025T13:28:30 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/CURA Healthcare Service/Home Page/h1_CURA Healthcare Service"), "CURA Healthcare Service"): Actual text and expected text of test object 'Object Repository/CURA Healthcare Service/Home Page/h1_CURA Healthcare Service' are matched.
+
+21-06-2025T13:28:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CURA Healthcare Service/Home Page/h1_CURA Healthcare Service' are matched.
+
+21-06-2025T13:28:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Week 1 - Kickstart Test Automation/Logout' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[21-06-2025T13:27:56 - [TEST_SUITE][PASSED] - Reserve Medical Appointment Suite: Test Cases/Week 1 - Kickstart Test Automation/Reserve A Medical Appointment]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

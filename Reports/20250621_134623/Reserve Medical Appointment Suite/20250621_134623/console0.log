@@ -1,0 +1,490 @@
+2025-06-21 13:46:29.058 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Reserve Medical Appointment Suite
+2025-06-21 13:46:29.337 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Nedaa Gehad
+2025-06-21 13:46:29.338 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = Levelup To Automation With Katalon
+2025-06-21 13:46:29.339 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = user - host.docker.internal
+2025-06-21 13:46:29.340 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2025-06-21 13:46:29.340 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.100.16
+2025-06-21 13:46:29.341 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.2.1.0
+2025-06-21 13:46:30.332 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-21 13:46:30.332 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Week 1 - Kickstart Test Automation/Reserve A Medical Appointment
+2025-06-21 13:46:30.426 DEBUG c.k.katalon.core.main.TestCaseExecutor   - Evaluating variables for test case
+2025-06-21 13:46:31.332 DEBUG testcase.Reserve A Medical Appointment   - 1: callTestCase(findTestCase("Week 1 - Kickstart Test Automation/Login"), ["UserName":"", "Password":""], STOP_ON_FAILURE)
+2025-06-21 13:46:31.522 DEBUG c.k.k.c.k.builtin.CallTestCaseKeyword    - Checking called Test Case
+2025-06-21 13:46:31.523 DEBUG c.k.k.c.k.builtin.CallTestCaseKeyword    - Starting to call Test Case 'Test Cases/Week 1 - Kickstart Test Automation/Login'
+2025-06-21 13:46:31.582 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-21 13:46:31.582 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Week 1 - Kickstart Test Automation/Login
+2025-06-21 13:46:31.602 DEBUG c.k.katalon.core.main.TestCaseExecutor   - Evaluating variables for test case
+2025-06-21 13:46:31.605 INFO  c.k.katalon.core.main.TestCaseExecutor   - UserName = 
+2025-06-21 13:46:31.607 INFO  c.k.katalon.core.main.TestCaseExecutor   - Password = 
+2025-06-21 13:46:31.724 DEBUG testcase.Login                           - 1: openBrowser("")
+2025-06-21 13:46:32.033 DEBUG c.k.k.c.w.k.builtin.OpenBrowserKeyword   - Opening browser
+2025-06-21 13:46:32.047 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-06-21 13:46:32.134 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Use managed Chrome browser & driver
+2025-06-21 13:46:32.134 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking and download if needed Chrome browser and driver for Chrome for Testing version latest (This may take a while in case of downloading needed)
+2025-06-21 13:46:32.545 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking Chrome browser and driver completed in 411 ms
+2025-06-21 13:46:32.547 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome driver path: C:\Users\user\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-06-21 13:46:32.547 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome browser path: C:\Users\user\.cache\selenium\chrome\win64\137.0.7151.119\chrome.exe
+2025-06-21 13:46:32.582 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jun 21, 2025 1:46:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 21, 2025 1:46:34 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.119. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-21 13:46:35.219 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 21b08d3e395598824b9ec014a88835ea
+2025-06-21 13:46:35.221 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.119
+2025-06-21 13:46:35.221 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-06-21 13:46:35.222 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-21 13:46:35.237 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-21 13:46:35.305 DEBUG c.k.k.c.w.k.builtin.OpenBrowserKeyword   - ✓ Browser is opened with url: ''
+2025-06-21 13:46:35.313 DEBUG testcase.Login                           - 2: navigateToUrl("https://katalon-demo-cura.herokuapp.com/")
+2025-06-21 13:46:35.338 DEBUG c.k.k.c.w.k.b.NavigateToUrlKeyword       - Checking url
+2025-06-21 13:46:35.347 DEBUG c.k.k.c.w.k.b.NavigateToUrlKeyword       - Navigating to 'https://katalon-demo-cura.herokuapp.com/'
+2025-06-21 13:46:37.709 DEBUG c.k.k.c.w.k.b.NavigateToUrlKeyword       - ✓ Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+2025-06-21 13:46:37.717 DEBUG testcase.Login                           - 3: click(findTestObject("Object Repository/CURA Healthcare Service/Home Page/a_Make Appointment"))
+2025-06-21 13:46:37.742 DEBUG c.k.k.core.testobject.ObjectRepository   - Finding Test Object 'Object Repository/CURA Healthcare Service/Home Page/a_Make Appointment'
+2025-06-21 13:46:37.842 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking object
+2025-06-21 13:46:37.843 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-21 13:46:37.843 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-21 13:46:37.844 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-21 13:46:37.845 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Home Page/a_Make Appointment' located by 'By.xpath: //a[@id='btn-make-appointment']' in '30' second(s)
+2025-06-21 13:46:37.848 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:38.142 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Home Page/a_Make Appointment' located by 'By.xpath: //a[@id='btn-make-appointment']' in '30' second(s)
+2025-06-21 13:46:38.144 DEBUG c.k.k.c.w.keyword.builtin.ClickKeyword   - Clicking on object: 'Object Repository/CURA Healthcare Service/Home Page/a_Make Appointment'
+2025-06-21 13:46:38.566 DEBUG c.k.k.c.w.keyword.builtin.ClickKeyword   - ✓ Object: 'Object Repository/CURA Healthcare Service/Home Page/a_Make Appointment' is clicked on
+2025-06-21 13:46:38.571 DEBUG testcase.Login                           - 4: setText(findTestObject("Object Repository/CURA Healthcare Service/Login/input_Username_username"), "John Do")
+2025-06-21 13:46:38.574 DEBUG c.k.k.core.testobject.ObjectRepository   - Finding Test Object 'Object Repository/CURA Healthcare Service/Login/input_Username_username'
+2025-06-21 13:46:38.606 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking object
+2025-06-21 13:46:38.607 DEBUG c.k.k.c.w.k.builtin.SetTextKeyword       - Checking text
+2025-06-21 13:46:38.608 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-21 13:46:38.609 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-21 13:46:38.610 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Login/input_Username_username' located by 'By.xpath: //input[@id='txt-username']' in '30' second(s)
+2025-06-21 13:46:38.610 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:38.988 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Login/input_Username_username' located by 'By.xpath: //input[@id='txt-username']' in '30' second(s)
+2025-06-21 13:46:38.989 DEBUG c.k.k.c.w.k.builtin.SetTextKeyword       - Clearing text of object 'Object Repository/CURA Healthcare Service/Login/input_Username_username'
+2025-06-21 13:46:39.032 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-21 13:46:39.032 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-21 13:46:39.033 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Login/input_Username_username' located by 'By.xpath: //input[@id='txt-username']' in '30' second(s)
+2025-06-21 13:46:39.034 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:39.281 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Login/input_Username_username' located by 'By.xpath: //input[@id='txt-username']' in '30' second(s)
+2025-06-21 13:46:39.295 DEBUG c.k.k.c.w.k.builtin.SetTextKeyword       - Setting text of object 'Object Repository/CURA Healthcare Service/Login/input_Username_username' to value 'John Do'
+2025-06-21 13:46:39.372 DEBUG c.k.k.c.w.k.builtin.SetTextKeyword       - ✓ Text 'John Do' is set on object 'Object Repository/CURA Healthcare Service/Login/input_Username_username'
+2025-06-21 13:46:39.377 DEBUG testcase.Login                           - 5: setEncryptedText(findTestObject("Object Repository/CURA Healthcare Service/Login/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM")
+2025-06-21 13:46:39.379 DEBUG c.k.k.core.testobject.ObjectRepository   - Finding Test Object 'Object Repository/CURA Healthcare Service/Login/input_Password_password'
+2025-06-21 13:46:39.402 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking object
+2025-06-21 13:46:39.403 DEBUG c.k.k.c.w.k.b.SetEncryptedTextKeyword    - Checking text
+2025-06-21 13:46:39.405 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-21 13:46:39.405 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-21 13:46:39.406 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Login/input_Password_password' located by 'By.xpath: //input[@id='txt-password']' in '30' second(s)
+2025-06-21 13:46:39.407 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:39.652 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Login/input_Password_password' located by 'By.xpath: //input[@id='txt-password']' in '30' second(s)
+2025-06-21 13:46:39.653 DEBUG c.k.k.c.w.k.b.SetEncryptedTextKeyword    - Clearing text of object 'Object Repository/CURA Healthcare Service/Login/input_Password_password'
+2025-06-21 13:46:39.680 DEBUG c.k.k.c.w.k.b.SetEncryptedTextKeyword    - Setting  text of object 'Object Repository/CURA Healthcare Service/Login/input_Password_password' to value ******
+2025-06-21 13:46:39.744 DEBUG c.k.k.c.w.k.b.SetEncryptedTextKeyword    - ✓ Text ****** has been set on object 'Object Repository/CURA Healthcare Service/Login/input_Password_password'
+2025-06-21 13:46:39.748 DEBUG testcase.Login                           - 6: click(findTestObject("Object Repository/CURA Healthcare Service/Login/button_Login"))
+2025-06-21 13:46:39.749 DEBUG c.k.k.core.testobject.ObjectRepository   - Finding Test Object 'Object Repository/CURA Healthcare Service/Login/button_Login'
+2025-06-21 13:46:39.761 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking object
+2025-06-21 13:46:39.761 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-21 13:46:39.762 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-21 13:46:39.762 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-21 13:46:39.763 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Login/button_Login' located by 'By.xpath: //button[@id='btn-login']' in '30' second(s)
+2025-06-21 13:46:39.764 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:40.023 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Login/button_Login' located by 'By.xpath: //button[@id='btn-login']' in '30' second(s)
+2025-06-21 13:46:40.024 DEBUG c.k.k.c.w.keyword.builtin.ClickKeyword   - Clicking on object: 'Object Repository/CURA Healthcare Service/Login/button_Login'
+2025-06-21 13:46:40.462 DEBUG c.k.k.c.w.keyword.builtin.ClickKeyword   - ✓ Object: 'Object Repository/CURA Healthcare Service/Login/button_Login' is clicked on
+2025-06-21 13:46:40.466 DEBUG testcase.Login                           - 7: verifyElementText(findTestObject("Object Repository/CURA Healthcare Service/Home Page/h2_Make Appointment"), "Make Appointment")
+2025-06-21 13:46:40.468 DEBUG c.k.k.core.testobject.ObjectRepository   - Finding Test Object 'Object Repository/CURA Healthcare Service/Home Page/h2_Make Appointment'
+2025-06-21 13:46:40.496 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking object
+2025-06-21 13:46:40.497 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-21 13:46:40.497 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-21 13:46:40.498 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Home Page/h2_Make Appointment' located by 'By.xpath: //section[@id='appointment']/div/div/div/h2' in '30' second(s)
+2025-06-21 13:46:40.499 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:40.851 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:41.085 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:41.319 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:41.571 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:41.821 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:42.072 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:42.314 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:42.551 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:42.785 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:43.021 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:43.253 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:43.486 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:43.732 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:43.988 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:44.221 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:44.469 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:44.702 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:44.939 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:45.190 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:45.434 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:45.684 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:45.928 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:46.163 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:46.413 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:46.652 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:46.884 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:47.128 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:47.369 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:47.605 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:47.837 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:48.068 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:48.317 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:48.571 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:48.818 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:49.062 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:49.311 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:49.545 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:49.780 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:50.018 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:50.273 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:50.515 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:50.753 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:51.003 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:51.240 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:51.484 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:51.718 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:51.950 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:52.185 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:52.430 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:52.667 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:52.909 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:53.149 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:53.390 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:53.627 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:53.886 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:54.115 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:54.350 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:54.598 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:54.831 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:55.081 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:55.319 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:55.560 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:55.792 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:56.028 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:56.268 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:56.510 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:56.752 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:56.996 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:57.237 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:57.476 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:57.708 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:57.946 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:58.180 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:58.405 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:58.650 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:58.903 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:59.149 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:59.394 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:59.628 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:46:59.865 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:47:00.106 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:47:00.341 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:47:00.587 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:47:00.831 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:47:01.066 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:47:01.294 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:47:01.537 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:47:01.772 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:47:02.026 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:47:02.266 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:47:02.498 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:47:02.740 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:47:02.973 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:47:03.213 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:47:03.453 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:47:03.700 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:47:03.931 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:47:04.162 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:47:04.403 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:47:04.645 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:47:04.892 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:47:05.121 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:47:05.364 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:47:05.606 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:47:05.847 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:47:06.094 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:47:06.327 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:47:06.556 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:47:06.798 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:47:07.048 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:47:07.285 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:47:07.525 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:47:07.761 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:47:08.007 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:47:08.237 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:47:08.475 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:47:08.712 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:47:08.945 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:47:09.206 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:47:09.468 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:47:09.701 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:47:09.939 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:47:10.170 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:47:10.399 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:47:10.637 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:47:10.869 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:47:11.105 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:47:11.339 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-21 13:47:11.571 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.xpath: //section[@id='appointment']/div/div/div/h2'. Please recheck the objects properties to make sure the desired element is located. 
+2025-06-21 13:47:11.743 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/CURA Healthcare Service/Home Page/h2_Make Appointment' located by '//section[@id='appointment']/div/div/div/h2' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/CURA Healthcare Service/Home Page/h2_Make Appointment' located by '//section[@id='appointment']/div/div/div/h2' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4994)
+	at Login.run(Login:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at Reserve A Medical Appointment.run(Reserve A Medical Appointment:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1750502783204.run(TempTestSuite1750502783204.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+2025-06-21 13:47:11.867 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Verify element text of test object 'Object Repository/CURA Healthcare Service/Home Page/h2_Make Appointment' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/CURA Healthcare Service/Home Page/h2_Make Appointment' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4994)
+	at Login.run(Login:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at Reserve A Medical Appointment.run(Reserve A Medical Appointment:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1750502783204.run(TempTestSuite1750502783204.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/CURA Healthcare Service/Home Page/h2_Make Appointment' located by '//section[@id='appointment']/div/div/div/h2' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 39 more
+)
+2025-06-21 13:47:11.871 TRACE c.k.katalon.core.main.TestCaseExecutor   - END null: verifyElementText(findTestObject("Object Repository/CURA Healthcare Service/Home Page/h2_Make Appointment"), "Make Appointment")
+2025-06-21 13:47:11.872 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Week 1 - Kickstart Test Automation/Login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/CURA Healthcare Service/Home Page/h2_Make Appointment' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4994)
+	at Login.run(Login:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at Reserve A Medical Appointment.run(Reserve A Medical Appointment:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1750502783204.run(TempTestSuite1750502783204.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/CURA Healthcare Service/Home Page/h2_Make Appointment' located by '//section[@id='appointment']/div/div/div/h2' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 39 more
+
+2025-06-21 13:47:11.876 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Week 1 - Kickstart Test Automation/Login
+2025-06-21 13:47:11.876 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-21 13:47:11.888 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to call Test Case 'Test Cases/Week 1 - Kickstart Test Automation/Login' (Root cause: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Week 1 - Kickstart Test Automation/Login' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at Reserve A Medical Appointment.run(Reserve A Medical Appointment:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1750502783204.run(TempTestSuite1750502783204.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/CURA Healthcare Service/Home Page/h2_Make Appointment' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4994)
+	at Login.run(Login:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 25 more
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/CURA Healthcare Service/Home Page/h2_Make Appointment' located by '//section[@id='appointment']/div/div/div/h2' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 39 more
+)
+2025-06-21 13:47:11.890 TRACE c.k.katalon.core.main.TestCaseExecutor   - END null: callTestCase(findTestCase("Week 1 - Kickstart Test Automation/Login"), ["UserName":"", "Password":""], STOP_ON_FAILURE)
+2025-06-21 13:47:11.891 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Week 1 - Kickstart Test Automation/Reserve A Medical Appointment FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Week 1 - Kickstart Test Automation/Login' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at Reserve A Medical Appointment.run(Reserve A Medical Appointment:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1750502783204.run(TempTestSuite1750502783204.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/CURA Healthcare Service/Home Page/h2_Make Appointment' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4994)
+	at Login.run(Login:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 25 more
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/CURA Healthcare Service/Home Page/h2_Make Appointment' located by '//section[@id='appointment']/div/div/div/h2' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 39 more
+
+2025-06-21 13:47:13.967 DEBUG c.k.k.c.c.internal.VideoRecorderService  - STEP Video
+2025-06-21 13:47:13.967 INFO  c.k.k.c.c.internal.VideoRecorderService  - Video recording for test case 'Test Cases/Week 1 - Kickstart Test Automation/Reserve A Medical Appointment' .
+2025-06-21 13:47:13.968 TRACE c.k.k.c.c.internal.VideoRecorderService  - END null: Video
+2025-06-21 13:47:13.968 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Week 1 - Kickstart Test Automation/Reserve A Medical Appointment
+2025-06-21 13:47:14.461 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-06-21 13:47:14.461 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Reserve Medical Appointment Suite
+2025-06-21 13:47:14.461 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

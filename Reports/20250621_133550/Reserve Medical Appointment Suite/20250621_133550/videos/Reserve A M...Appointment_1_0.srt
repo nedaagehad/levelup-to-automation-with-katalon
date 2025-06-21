@@ -1,0 +1,32 @@
+1
+00:00:00,000 --> 00:00:00,000
+1. callTestCase(findTestCase("Week 1 - Kickstart Test Automation/Login"), ["UserName":"", "Password":""], STOP_ON_FAILURE)
+
+2
+00:00:00,000 --> 00:00:00,000
+1. openBrowser("")
+
+3
+00:00:00,000 --> 00:00:00,000
+5. navigateToUrl("https://katalon-demo-cura.herokuapp.com/")
+
+4
+00:00:00,000 --> 00:00:00,000
+9. click(findTestObject("Object Repository/CURA Healthcare Service/Home Page/a_Make Appointment"))
+
+5
+00:00:00,000 --> 00:00:00,000
+13. setText(findTestObject("Object Repository/CURA Healthcare Service/Login/input_Username_username"), "John Do")
+
+6
+00:00:00,000 --> 00:00:00,000
+17. setEncryptedText(findTestObject("Object Repository/CURA Healthcare Service/Login/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM")
+
+7
+00:00:00,000 --> 00:00:00,000
+21. click(findTestObject("Object Repository/CURA Healthcare Service/Login/button_Login"))
+
+8
+00:00:00,000 --> 00:00:00,000
+25. verifyElementText(findTestObject("Object Repository/CURA Healthcare Service/Home Page/h2_Make Appointment"), "Make Appointment")
+
