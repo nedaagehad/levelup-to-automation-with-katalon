@@ -17,9 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Week 1 - Kickstart Test Automation/Login'), [('UserName') : '', ('Password') : ''], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Reusable Modules/Login'), [('UserName') : findTestData('Valid User Credentials').getValue(
+            'UserName', 1), ('Password') : findTestData('Valid User Credentials').getValue('Password', 1)], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Week 1 - Kickstart Test Automation/Make Appointment'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Reusable Modules/Make Appointment'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Week 1 - Kickstart Test Automation/Logout'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Reusable Modules/Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 

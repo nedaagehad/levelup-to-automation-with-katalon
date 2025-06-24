@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Regression,Edge Chromium 137.0.3296.93,Testing all Test Cases for the Cura HealthCare Service,,24-06-2025 15:37:40,24-06-2025 15:39:07,1m - 27.406s,PASSED
+,,,,,,,
+Test Cases/Reusable Modules/Login,Edge Chromium 137.0.3296.93,This test case to is to test the login functionality with valid user credentials.,,24-06-2025 15:37:41,24-06-2025 15:37:55,14.320s,PASSED
+"DATA BINDING - {""(Default) UserN..."":"""",""(Default) Passw..."":""********""}",,,,,,,
+"openBrowser("""")",Edge Chromium 137.0.3296.93,,,24-06-2025 15:37:42,24-06-2025 15:37:47,4.685s,PASSED
+navigateToUrl(G_MainURL),Edge Chromium 137.0.3296.93,,,24-06-2025 15:37:47,24-06-2025 15:37:49,1.926s,PASSED
+"click(findTestObject(""Object Repository/CURA Healthcare Service/Home Page/a_Make Appointment""))",Edge Chromium 137.0.3296.93,,,24-06-2025 15:37:49,24-06-2025 15:37:50,1.034s,PASSED
+if (!(UserName)),Edge Chromium 137.0.3296.93,,,24-06-2025 15:37:50,24-06-2025 15:37:50,0.019s,PASSED
+if (!(Password)),Edge Chromium 137.0.3296.93,,,24-06-2025 15:37:50,24-06-2025 15:37:50,0.012s,PASSED
+"setText(findTestObject(""Object Repository/CURA Healthcare Service/Login/input_Username_username""), UserName)",Edge Chromium 137.0.3296.93,,,24-06-2025 15:37:50,24-06-2025 15:37:51,0.940s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/CURA Healthcare Service/Login/input_Password_password""), Auth.EncryptText(Password))",Edge Chromium 137.0.3296.93,,,24-06-2025 15:37:51,24-06-2025 15:37:52,0.715s,PASSED
+"click(findTestObject(""Object Repository/CURA Healthcare Service/Login/button_Login""))",Edge Chromium 137.0.3296.93,,,24-06-2025 15:37:52,24-06-2025 15:37:53,0.804s,PASSED
+"verifyElementText(findTestObject(""Object Repository/CURA Healthcare Service/Home Page/h2_Make Appointment""), ""Make Appointment"")",Edge Chromium 137.0.3296.93,,,24-06-2025 15:37:53,24-06-2025 15:37:53,0.625s,PASSED
+,,,,,,,
+Test Cases/Week 1 - Kickstart Test Automation/Check User Profile,Edge Chromium 137.0.3296.93,,,24-06-2025 15:37:55,24-06-2025 15:38:08,12.239s,PASSED
+"callTestCase(findTestCase(""Reusable Modules/Login""), [""UserName"":findTestData(""User Credentials - Internal"").getValue(""UserName"", 1), ""Password"":findTestData(""User Credentials - Internal"").getValue(""Password"", 1)], STOP_ON_FAILURE)",Edge Chromium 137.0.3296.93,,,24-06-2025 15:37:55,24-06-2025 15:38:04,8.530s,PASSED
+"click(findTestObject(""Object Repository/CURA Healthcare Service/Home Page/i_fa fa-bars""))",Edge Chromium 137.0.3296.93,,,24-06-2025 15:38:04,24-06-2025 15:38:04,0.414s,PASSED
+"click(findTestObject(""Object Repository/CURA Healthcare Service/Home Page/a_Profile""))",Edge Chromium 137.0.3296.93,,,24-06-2025 15:38:04,24-06-2025 15:38:05,0.614s,PASSED
+"verifyElementText(findTestObject(""Object Repository/CURA Healthcare Service/Home Page/h2_Profile""), ""Profile"")",Edge Chromium 137.0.3296.93,,,24-06-2025 15:38:05,24-06-2025 15:38:06,0.486s,PASSED
+,,,,,,,
+Test Cases/Week 1 - Kickstart Test Automation/Logout User,Edge Chromium 137.0.3296.93,,,24-06-2025 15:38:08,24-06-2025 15:38:21,13.318s,PASSED
+"callTestCase(findTestCase(""Reusable Modules/Login""), [""UserName"":findTestData(""Valid User Credentials"").getValue(""UserName"", 1), ""Password"":findTestData(""Valid User Credentials"").getValue(""Password"", 1)], STOP_ON_FAILURE)",Edge Chromium 137.0.3296.93,,,24-06-2025 15:38:08,24-06-2025 15:38:17,9.131s,PASSED
+"callTestCase(findTestCase(""Reusable Modules/Logout""), [:], STOP_ON_FAILURE)",Edge Chromium 137.0.3296.93,,,24-06-2025 15:38:17,24-06-2025 15:38:19,2.008s,PASSED
+,,,,,,,
+Test Cases/Week 1 - Kickstart Test Automation/Reserve A Medical Appointment,Edge Chromium 137.0.3296.93,,,24-06-2025 15:38:21,24-06-2025 15:38:39,17.682s,PASSED
+"callTestCase(findTestCase(""Reusable Modules/Login""), [""UserName"":findTestData(""Valid User Credentials"").getValue(""UserName"", 1), ""Password"":findTestData(""Valid User Credentials"").getValue(""Password"", 1)], STOP_ON_FAILURE)",Edge Chromium 137.0.3296.93,,,24-06-2025 15:38:21,24-06-2025 15:38:30,8.779s,PASSED
+"callTestCase(findTestCase(""Reusable Modules/Make Appointment""), [:], STOP_ON_FAILURE)",Edge Chromium 137.0.3296.93,,,24-06-2025 15:38:30,24-06-2025 15:38:35,4.848s,PASSED
+"callTestCase(findTestCase(""Reusable Modules/Logout""), [:], STOP_ON_FAILURE)",Edge Chromium 137.0.3296.93,,,24-06-2025 15:38:35,24-06-2025 15:38:37,1.936s,PASSED
+,,,,,,,
+Test Cases/Week 2 - Keyword Driven Test/Make An Appointment - Manually,Edge Chromium 137.0.3296.93,,,24-06-2025 15:38:39,24-06-2025 15:39:07,28.780s,PASSED
+"Auth.Login(G_Cura_UserName, G_Cura_Password)",Edge Chromium 137.0.3296.93,,,24-06-2025 15:38:39,24-06-2025 15:38:47,7.867s,PASSED
+for (def n : (0..2)),Edge Chromium 137.0.3296.93,,,24-06-2025 15:38:47,24-06-2025 15:39:04,17.299s,PASSED
+closeBrowser(),Edge Chromium 137.0.3296.93,,,24-06-2025 15:39:04,24-06-2025 15:39:05,1.321s,PASSED
+"Completed.Congrats(""Tester"")",Edge Chromium 137.0.3296.93,,,24-06-2025 15:39:05,24-06-2025 15:39:05,0.013s,PASSED

@@ -1,0 +1,1100 @@
+2025-06-24 15:34:35.785 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Regression
+2025-06-24 15:34:35.908 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Nedaa Gehad
+2025-06-24 15:34:35.909 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = Levelup To Automation With Katalon
+2025-06-24 15:34:35.910 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = user - host.docker.internal
+2025-06-24 15:34:35.910 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2025-06-24 15:34:35.910 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.100.16
+2025-06-24 15:34:35.911 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.2.1.0
+2025-06-24 15:34:36.447 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-24 15:34:36.448 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Reusable Modules/Login
+2025-06-24 15:34:36.515 DEBUG c.k.katalon.core.main.TestCaseExecutor   - Evaluating variables for test case
+2025-06-24 15:34:36.542 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) UserName = 
+2025-06-24 15:34:36.543 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) Password = 
+2025-06-24 15:34:37.152 DEBUG testcase.Login                           - 1: openBrowser("")
+2025-06-24 15:34:37.434 DEBUG c.k.k.c.w.k.builtin.OpenBrowserKeyword   - Opening browser
+2025-06-24 15:34:37.441 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-06-24 15:34:37.480 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Use managed Chrome browser & driver
+2025-06-24 15:34:37.482 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking and download if needed Chrome browser and driver for Chrome for Testing version latest (This may take a while in case of downloading needed)
+2025-06-24 15:34:37.701 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking Chrome browser and driver completed in 219 ms
+2025-06-24 15:34:37.702 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome driver path: C:\Users\user\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-06-24 15:34:37.702 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome browser path: C:\Users\user\.cache\selenium\chrome\win64\137.0.7151.119\chrome.exe
+2025-06-24 15:34:37.720 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jun 24, 2025 3:34:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 24, 2025 3:34:38 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.119. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-24 15:34:39.223 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 396b125c352c2752c6e94772836c69e0
+2025-06-24 15:34:39.224 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.119
+2025-06-24 15:34:39.224 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-06-24 15:34:39.224 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-24 15:34:39.224 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-24 15:34:39.264 DEBUG c.k.k.c.w.k.builtin.OpenBrowserKeyword   - ✓ Browser is opened with url: ''
+2025-06-24 15:34:39.279 DEBUG testcase.Login                           - 2: navigateToUrl(G_MainURL)
+2025-06-24 15:34:39.369 DEBUG c.k.k.c.w.k.b.NavigateToUrlKeyword       - Checking url
+2025-06-24 15:34:39.372 DEBUG c.k.k.c.w.k.b.NavigateToUrlKeyword       - Navigating to 'https://katalon-demo-cura.herokuapp.com/'
+2025-06-24 15:34:41.098 DEBUG c.k.k.c.w.k.b.NavigateToUrlKeyword       - ✓ Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+2025-06-24 15:34:41.102 DEBUG testcase.Login                           - 3: click(findTestObject("Object Repository/CURA Healthcare Service/Home Page/a_Make Appointment"))
+2025-06-24 15:34:41.113 DEBUG c.k.k.core.testobject.ObjectRepository   - Finding Test Object 'Object Repository/CURA Healthcare Service/Home Page/a_Make Appointment'
+2025-06-24 15:34:41.157 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking object
+2025-06-24 15:34:41.158 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:34:41.158 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-24 15:34:41.158 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:34:41.159 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Home Page/a_Make Appointment' located by 'By.xpath: //a[@id='btn-make-appointment']' in '30' second(s)
+2025-06-24 15:34:41.160 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:34:41.412 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Home Page/a_Make Appointment' located by 'By.xpath: //a[@id='btn-make-appointment']' in '30' second(s)
+2025-06-24 15:34:41.413 DEBUG c.k.k.c.w.keyword.builtin.ClickKeyword   - Clicking on object: 'Object Repository/CURA Healthcare Service/Home Page/a_Make Appointment'
+2025-06-24 15:34:41.700 DEBUG c.k.k.c.w.keyword.builtin.ClickKeyword   - ✓ Object: 'Object Repository/CURA Healthcare Service/Home Page/a_Make Appointment' is clicked on
+2025-06-24 15:34:41.703 DEBUG testcase.Login                           - 4: if (!(UserName))
+2025-06-24 15:34:41.708 DEBUG testcase.Login                           - 1: UserName = G_Cura_UserName
+2025-06-24 15:34:41.710 DEBUG testcase.Login                           - 5: if (!(Password))
+2025-06-24 15:34:41.712 DEBUG testcase.Login                           - 1: Password = G_Cura_Password
+2025-06-24 15:34:41.715 DEBUG testcase.Login                           - 6: setText(findTestObject("Object Repository/CURA Healthcare Service/Login/input_Username_username"), UserName)
+2025-06-24 15:34:41.716 DEBUG c.k.k.core.testobject.ObjectRepository   - Finding Test Object 'Object Repository/CURA Healthcare Service/Login/input_Username_username'
+2025-06-24 15:34:41.730 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking object
+2025-06-24 15:34:41.731 DEBUG c.k.k.c.w.k.builtin.SetTextKeyword       - Checking text
+2025-06-24 15:34:41.732 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-24 15:34:41.732 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:34:41.732 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Login/input_Username_username' located by 'By.xpath: //input[@id='txt-username']' in '30' second(s)
+2025-06-24 15:34:41.733 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:34:42.073 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Login/input_Username_username' located by 'By.xpath: //input[@id='txt-username']' in '30' second(s)
+2025-06-24 15:34:42.074 DEBUG c.k.k.c.w.k.builtin.SetTextKeyword       - Clearing text of object 'Object Repository/CURA Healthcare Service/Login/input_Username_username'
+2025-06-24 15:34:42.099 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-24 15:34:42.099 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:34:42.099 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Login/input_Username_username' located by 'By.xpath: //input[@id='txt-username']' in '30' second(s)
+2025-06-24 15:34:42.100 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:34:42.333 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Login/input_Username_username' located by 'By.xpath: //input[@id='txt-username']' in '30' second(s)
+2025-06-24 15:34:42.345 DEBUG c.k.k.c.w.k.builtin.SetTextKeyword       - Setting text of object 'Object Repository/CURA Healthcare Service/Login/input_Username_username' to value 'John Doe'
+2025-06-24 15:34:42.385 DEBUG c.k.k.c.w.k.builtin.SetTextKeyword       - ✓ Text 'John Doe' is set on object 'Object Repository/CURA Healthcare Service/Login/input_Username_username'
+2025-06-24 15:34:42.387 DEBUG testcase.Login                           - 7: setEncryptedText(findTestObject("Object Repository/CURA Healthcare Service/Login/input_Password_password"), Auth.EncryptText(Password))
+2025-06-24 15:34:42.388 DEBUG c.k.k.core.testobject.ObjectRepository   - Finding Test Object 'Object Repository/CURA Healthcare Service/Login/input_Password_password'
+2025-06-24 15:34:42.404 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - Auth.EncryptText is PASSED
+2025-06-24 15:34:42.413 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking object
+2025-06-24 15:34:42.414 DEBUG c.k.k.c.w.k.b.SetEncryptedTextKeyword    - Checking text
+2025-06-24 15:34:42.414 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-24 15:34:42.415 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:34:42.415 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Login/input_Password_password' located by 'By.xpath: //input[@id='txt-password']' in '30' second(s)
+2025-06-24 15:34:42.416 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:34:42.648 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Login/input_Password_password' located by 'By.xpath: //input[@id='txt-password']' in '30' second(s)
+2025-06-24 15:34:42.649 DEBUG c.k.k.c.w.k.b.SetEncryptedTextKeyword    - Clearing text of object 'Object Repository/CURA Healthcare Service/Login/input_Password_password'
+2025-06-24 15:34:42.666 DEBUG c.k.k.c.w.k.b.SetEncryptedTextKeyword    - Setting  text of object 'Object Repository/CURA Healthcare Service/Login/input_Password_password' to value ******
+2025-06-24 15:34:42.713 DEBUG c.k.k.c.w.k.b.SetEncryptedTextKeyword    - ✓ Text ****** has been set on object 'Object Repository/CURA Healthcare Service/Login/input_Password_password'
+2025-06-24 15:34:42.716 DEBUG testcase.Login                           - 8: click(findTestObject("Object Repository/CURA Healthcare Service/Login/button_Login"))
+2025-06-24 15:34:42.717 DEBUG c.k.k.core.testobject.ObjectRepository   - Finding Test Object 'Object Repository/CURA Healthcare Service/Login/button_Login'
+2025-06-24 15:34:42.725 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking object
+2025-06-24 15:34:42.726 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:34:42.726 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-24 15:34:42.726 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:34:42.726 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Login/button_Login' located by 'By.xpath: //button[@id='btn-login']' in '30' second(s)
+2025-06-24 15:34:42.727 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:34:42.954 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Login/button_Login' located by 'By.xpath: //button[@id='btn-login']' in '30' second(s)
+2025-06-24 15:34:42.955 DEBUG c.k.k.c.w.keyword.builtin.ClickKeyword   - Clicking on object: 'Object Repository/CURA Healthcare Service/Login/button_Login'
+2025-06-24 15:34:43.277 DEBUG c.k.k.c.w.keyword.builtin.ClickKeyword   - ✓ Object: 'Object Repository/CURA Healthcare Service/Login/button_Login' is clicked on
+2025-06-24 15:34:43.280 DEBUG testcase.Login                           - 9: verifyElementText(findTestObject("Object Repository/CURA Healthcare Service/Home Page/h2_Make Appointment"), "Make Appointment")
+2025-06-24 15:34:43.281 DEBUG c.k.k.core.testobject.ObjectRepository   - Finding Test Object 'Object Repository/CURA Healthcare Service/Home Page/h2_Make Appointment'
+2025-06-24 15:34:43.294 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking object
+2025-06-24 15:34:43.295 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-24 15:34:43.295 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:34:43.295 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Home Page/h2_Make Appointment' located by 'By.xpath: //section[@id='appointment']/div/div/div/h2' in '30' second(s)
+2025-06-24 15:34:43.296 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:34:43.771 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Home Page/h2_Make Appointment' located by 'By.xpath: //section[@id='appointment']/div/div/div/h2' in '30' second(s)
+2025-06-24 15:34:43.783 DEBUG c.k.k.c.w.k.b.VerifyElementTextKeyword   - ✓ Actual text and expected text of test object 'Object Repository/CURA Healthcare Service/Home Page/h2_Make Appointment' are matched.
+2025-06-24 15:34:43.784 TRACE c.k.katalon.core.main.TestCaseExecutor   - END null: verifyElementText(findTestObject("Object Repository/CURA Healthcare Service/Home Page/h2_Make Appointment"), "Make Appointment")
+2025-06-24 15:34:43.784 DEBUG c.k.katalon.core.main.TestCaseExecutor   - ✓ Test Cases/Reusable Modules/Login
+2025-06-24 15:34:45.797 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Reusable Modules/Login
+2025-06-24 15:34:45.801 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-24 15:34:45.801 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Week 1 - Kickstart Test Automation/Check User Profile
+2025-06-24 15:34:45.815 DEBUG c.k.katalon.core.main.TestCaseExecutor   - Evaluating variables for test case
+2025-06-24 15:34:45.866 DEBUG testcase.Check User Profile              - 1: callTestCase(findTestCase("Reusable Modules/Login"), ["UserName":findTestData("User Credentials - Internal").getValue("UserName", 1), "Password":findTestData("User Credentials - Internal").getValue("Password", 1)], STOP_ON_FAILURE)
+2025-06-24 15:34:45.881 DEBUG c.k.k.core.testdata.TestDataFactory      - Checking test data id
+2025-06-24 15:34:45.881 DEBUG c.k.k.core.testdata.TestDataFactory      - Finding test data with id 'Data Files/User Credentials - Internal'
+2025-06-24 15:34:45.885 DEBUG c.k.k.core.testdata.TestDataFactory      - Test data is internal data, reading internal data
+2025-06-24 15:34:45.896 DEBUG c.k.k.core.testdata.TestDataFactory      - Checking test data id
+2025-06-24 15:34:45.899 DEBUG c.k.k.core.testdata.TestDataFactory      - Finding test data with id 'Data Files/User Credentials - Internal'
+2025-06-24 15:34:45.903 DEBUG c.k.k.core.testdata.TestDataFactory      - Test data is internal data, reading internal data
+2025-06-24 15:34:45.927 DEBUG c.k.k.c.k.builtin.CallTestCaseKeyword    - Checking called Test Case
+2025-06-24 15:34:45.928 DEBUG c.k.k.c.k.builtin.CallTestCaseKeyword    - Starting to call Test Case 'Test Cases/Reusable Modules/Login'
+2025-06-24 15:34:45.984 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-24 15:34:45.984 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Reusable Modules/Login
+2025-06-24 15:34:45.993 DEBUG c.k.katalon.core.main.TestCaseExecutor   - Evaluating variables for test case
+2025-06-24 15:34:45.993 INFO  c.k.katalon.core.main.TestCaseExecutor   - UserName = John Doe
+2025-06-24 15:34:45.995 INFO  c.k.katalon.core.main.TestCaseExecutor   - Password = ********
+2025-06-24 15:34:45.999 DEBUG testcase.Login                           - 1: openBrowser("")
+2025-06-24 15:34:46.006 DEBUG c.k.k.c.w.k.builtin.OpenBrowserKeyword   - Opening browser
+2025-06-24 15:34:46.007 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-06-24 15:34:46.357 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-06-24 15:34:46.358 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Use managed Chrome browser & driver
+2025-06-24 15:34:46.359 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking and download if needed Chrome browser and driver for Chrome for Testing version latest (This may take a while in case of downloading needed)
+2025-06-24 15:34:46.556 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking Chrome browser and driver completed in 197 ms
+2025-06-24 15:34:46.556 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome driver path: C:\Users\user\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-06-24 15:34:46.556 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome browser path: C:\Users\user\.cache\selenium\chrome\win64\137.0.7151.119\chrome.exe
+2025-06-24 15:34:46.557 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jun 24, 2025 3:34:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 24, 2025 3:34:47 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.119. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-24 15:34:47.300 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 03fa0d31070db7e316306dbb1f4e05da
+2025-06-24 15:34:47.302 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.119
+2025-06-24 15:34:47.302 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-06-24 15:34:47.303 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-24 15:34:47.303 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-24 15:34:47.321 DEBUG c.k.k.c.w.k.builtin.OpenBrowserKeyword   - ✓ Browser is opened with url: ''
+2025-06-24 15:34:47.324 DEBUG testcase.Login                           - 2: navigateToUrl(G_MainURL)
+2025-06-24 15:34:47.328 DEBUG c.k.k.c.w.k.b.NavigateToUrlKeyword       - Checking url
+2025-06-24 15:34:47.329 DEBUG c.k.k.c.w.k.b.NavigateToUrlKeyword       - Navigating to 'https://katalon-demo-cura.herokuapp.com/'
+2025-06-24 15:34:49.056 DEBUG c.k.k.c.w.k.b.NavigateToUrlKeyword       - ✓ Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+2025-06-24 15:34:49.059 DEBUG testcase.Login                           - 3: click(findTestObject("Object Repository/CURA Healthcare Service/Home Page/a_Make Appointment"))
+2025-06-24 15:34:49.060 DEBUG c.k.k.core.testobject.ObjectRepository   - Finding Test Object 'Object Repository/CURA Healthcare Service/Home Page/a_Make Appointment'
+2025-06-24 15:34:49.068 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking object
+2025-06-24 15:34:49.069 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:34:49.069 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-24 15:34:49.069 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:34:49.070 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Home Page/a_Make Appointment' located by 'By.xpath: //a[@id='btn-make-appointment']' in '30' second(s)
+2025-06-24 15:34:49.070 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:34:49.308 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Home Page/a_Make Appointment' located by 'By.xpath: //a[@id='btn-make-appointment']' in '30' second(s)
+2025-06-24 15:34:49.309 DEBUG c.k.k.c.w.keyword.builtin.ClickKeyword   - Clicking on object: 'Object Repository/CURA Healthcare Service/Home Page/a_Make Appointment'
+2025-06-24 15:34:49.628 DEBUG c.k.k.c.w.keyword.builtin.ClickKeyword   - ✓ Object: 'Object Repository/CURA Healthcare Service/Home Page/a_Make Appointment' is clicked on
+2025-06-24 15:34:49.630 DEBUG testcase.Login                           - 4: if (!(UserName))
+2025-06-24 15:34:49.632 DEBUG testcase.Login                           - 5: if (!(Password))
+2025-06-24 15:34:49.633 DEBUG testcase.Login                           - 6: setText(findTestObject("Object Repository/CURA Healthcare Service/Login/input_Username_username"), UserName)
+2025-06-24 15:34:49.634 DEBUG c.k.k.core.testobject.ObjectRepository   - Finding Test Object 'Object Repository/CURA Healthcare Service/Login/input_Username_username'
+2025-06-24 15:34:49.640 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking object
+2025-06-24 15:34:49.641 DEBUG c.k.k.c.w.k.builtin.SetTextKeyword       - Checking text
+2025-06-24 15:34:49.641 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-24 15:34:49.641 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:34:49.642 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Login/input_Username_username' located by 'By.xpath: //input[@id='txt-username']' in '30' second(s)
+2025-06-24 15:34:49.642 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:34:49.991 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Login/input_Username_username' located by 'By.xpath: //input[@id='txt-username']' in '30' second(s)
+2025-06-24 15:34:49.991 DEBUG c.k.k.c.w.k.builtin.SetTextKeyword       - Clearing text of object 'Object Repository/CURA Healthcare Service/Login/input_Username_username'
+2025-06-24 15:34:50.015 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-24 15:34:50.015 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:34:50.016 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Login/input_Username_username' located by 'By.xpath: //input[@id='txt-username']' in '30' second(s)
+2025-06-24 15:34:50.016 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:34:50.251 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Login/input_Username_username' located by 'By.xpath: //input[@id='txt-username']' in '30' second(s)
+2025-06-24 15:34:50.257 DEBUG c.k.k.c.w.k.builtin.SetTextKeyword       - Setting text of object 'Object Repository/CURA Healthcare Service/Login/input_Username_username' to value 'John Doe'
+2025-06-24 15:34:50.299 DEBUG c.k.k.c.w.k.builtin.SetTextKeyword       - ✓ Text 'John Doe' is set on object 'Object Repository/CURA Healthcare Service/Login/input_Username_username'
+2025-06-24 15:34:50.301 DEBUG testcase.Login                           - 7: setEncryptedText(findTestObject("Object Repository/CURA Healthcare Service/Login/input_Password_password"), Auth.EncryptText(Password))
+2025-06-24 15:34:50.301 DEBUG c.k.k.core.testobject.ObjectRepository   - Finding Test Object 'Object Repository/CURA Healthcare Service/Login/input_Password_password'
+2025-06-24 15:34:50.304 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - Auth.EncryptText is PASSED
+2025-06-24 15:34:50.304 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking object
+2025-06-24 15:34:50.304 DEBUG c.k.k.c.w.k.b.SetEncryptedTextKeyword    - Checking text
+2025-06-24 15:34:50.304 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-24 15:34:50.307 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:34:50.307 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Login/input_Password_password' located by 'By.xpath: //input[@id='txt-password']' in '30' second(s)
+2025-06-24 15:34:50.307 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:34:50.542 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Login/input_Password_password' located by 'By.xpath: //input[@id='txt-password']' in '30' second(s)
+2025-06-24 15:34:50.542 DEBUG c.k.k.c.w.k.b.SetEncryptedTextKeyword    - Clearing text of object 'Object Repository/CURA Healthcare Service/Login/input_Password_password'
+2025-06-24 15:34:50.558 DEBUG c.k.k.c.w.k.b.SetEncryptedTextKeyword    - Setting  text of object 'Object Repository/CURA Healthcare Service/Login/input_Password_password' to value ******
+2025-06-24 15:34:50.602 DEBUG c.k.k.c.w.k.b.SetEncryptedTextKeyword    - ✓ Text ****** has been set on object 'Object Repository/CURA Healthcare Service/Login/input_Password_password'
+2025-06-24 15:34:50.604 DEBUG testcase.Login                           - 8: click(findTestObject("Object Repository/CURA Healthcare Service/Login/button_Login"))
+2025-06-24 15:34:50.605 DEBUG c.k.k.core.testobject.ObjectRepository   - Finding Test Object 'Object Repository/CURA Healthcare Service/Login/button_Login'
+2025-06-24 15:34:50.610 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking object
+2025-06-24 15:34:50.610 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:34:50.611 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-24 15:34:50.611 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:34:50.611 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Login/button_Login' located by 'By.xpath: //button[@id='btn-login']' in '30' second(s)
+2025-06-24 15:34:50.611 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:34:50.838 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Login/button_Login' located by 'By.xpath: //button[@id='btn-login']' in '30' second(s)
+2025-06-24 15:34:50.838 DEBUG c.k.k.c.w.keyword.builtin.ClickKeyword   - Clicking on object: 'Object Repository/CURA Healthcare Service/Login/button_Login'
+2025-06-24 15:34:51.156 DEBUG c.k.k.c.w.keyword.builtin.ClickKeyword   - ✓ Object: 'Object Repository/CURA Healthcare Service/Login/button_Login' is clicked on
+2025-06-24 15:34:51.158 DEBUG testcase.Login                           - 9: verifyElementText(findTestObject("Object Repository/CURA Healthcare Service/Home Page/h2_Make Appointment"), "Make Appointment")
+2025-06-24 15:34:51.158 DEBUG c.k.k.core.testobject.ObjectRepository   - Finding Test Object 'Object Repository/CURA Healthcare Service/Home Page/h2_Make Appointment'
+2025-06-24 15:34:51.164 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking object
+2025-06-24 15:34:51.164 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-24 15:34:51.164 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:34:51.165 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Home Page/h2_Make Appointment' located by 'By.xpath: //section[@id='appointment']/div/div/div/h2' in '30' second(s)
+2025-06-24 15:34:51.165 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:34:51.645 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Home Page/h2_Make Appointment' located by 'By.xpath: //section[@id='appointment']/div/div/div/h2' in '30' second(s)
+2025-06-24 15:34:51.648 DEBUG c.k.k.c.w.k.b.VerifyElementTextKeyword   - ✓ Actual text and expected text of test object 'Object Repository/CURA Healthcare Service/Home Page/h2_Make Appointment' are matched.
+2025-06-24 15:34:51.657 TRACE c.k.katalon.core.main.TestCaseExecutor   - END null: verifyElementText(findTestObject("Object Repository/CURA Healthcare Service/Home Page/h2_Make Appointment"), "Make Appointment")
+2025-06-24 15:34:51.657 DEBUG c.k.katalon.core.main.TestCaseExecutor   - ✓ Test Cases/Reusable Modules/Login
+2025-06-24 15:34:51.658 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Reusable Modules/Login
+2025-06-24 15:34:51.658 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-24 15:34:51.662 DEBUG c.k.k.c.k.builtin.CallTestCaseKeyword    - ✓ Call Test Case 'Test Cases/Reusable Modules/Login' successfully
+2025-06-24 15:34:51.664 DEBUG testcase.Check User Profile              - 2: click(findTestObject("Object Repository/CURA Healthcare Service/Home Page/i_fa fa-bars"))
+2025-06-24 15:34:51.665 DEBUG c.k.k.core.testobject.ObjectRepository   - Finding Test Object 'Object Repository/CURA Healthcare Service/Home Page/i_fa fa-bars'
+2025-06-24 15:34:51.669 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking object
+2025-06-24 15:34:51.669 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:34:51.670 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-24 15:34:51.670 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:34:51.670 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Home Page/i_fa fa-bars' located by 'By.xpath: //*[@class and contains(concat(' ', normalize-space(@class), ' '), ' fa-bars ')]' in '30' second(s)
+2025-06-24 15:34:51.670 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:34:51.904 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Home Page/i_fa fa-bars' located by 'By.xpath: //*[@class and contains(concat(' ', normalize-space(@class), ' '), ' fa-bars ')]' in '30' second(s)
+2025-06-24 15:34:51.905 DEBUG c.k.k.c.w.keyword.builtin.ClickKeyword   - Clicking on object: 'Object Repository/CURA Healthcare Service/Home Page/i_fa fa-bars'
+2025-06-24 15:34:51.939 DEBUG c.k.k.c.w.keyword.builtin.ClickKeyword   - ✓ Object: 'Object Repository/CURA Healthcare Service/Home Page/i_fa fa-bars' is clicked on
+2025-06-24 15:34:51.941 DEBUG testcase.Check User Profile              - 3: click(findTestObject("Object Repository/CURA Healthcare Service/Home Page/a_Profile"))
+2025-06-24 15:34:51.942 DEBUG c.k.k.core.testobject.ObjectRepository   - Finding Test Object 'Object Repository/CURA Healthcare Service/Home Page/a_Profile'
+2025-06-24 15:34:51.947 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking object
+2025-06-24 15:34:51.948 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:34:51.948 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-24 15:34:51.948 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:34:51.948 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Home Page/a_Profile' located by 'By.xpath: //*[@href = 'profile.php#profile']' in '30' second(s)
+2025-06-24 15:34:51.948 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:34:52.174 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Home Page/a_Profile' located by 'By.xpath: //*[@href = 'profile.php#profile']' in '30' second(s)
+2025-06-24 15:34:52.175 DEBUG c.k.k.c.w.keyword.builtin.ClickKeyword   - Clicking on object: 'Object Repository/CURA Healthcare Service/Home Page/a_Profile'
+2025-06-24 15:34:52.398 DEBUG c.k.k.c.w.keyword.builtin.ClickKeyword   - ✓ Object: 'Object Repository/CURA Healthcare Service/Home Page/a_Profile' is clicked on
+2025-06-24 15:34:52.401 DEBUG testcase.Check User Profile              - 4: verifyElementText(findTestObject("Object Repository/CURA Healthcare Service/Home Page/h2_Profile"), "Profile")
+2025-06-24 15:34:52.402 DEBUG c.k.k.core.testobject.ObjectRepository   - Finding Test Object 'Object Repository/CURA Healthcare Service/Home Page/h2_Profile'
+2025-06-24 15:34:52.408 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking object
+2025-06-24 15:34:52.409 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-24 15:34:52.409 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:34:52.409 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Home Page/h2_Profile' located by 'By.xpath: //h2' in '30' second(s)
+2025-06-24 15:34:52.409 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:34:52.856 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Home Page/h2_Profile' located by 'By.xpath: //h2' in '30' second(s)
+2025-06-24 15:34:52.862 DEBUG c.k.k.c.w.k.b.VerifyElementTextKeyword   - ✓ Actual text and expected text of test object 'Object Repository/CURA Healthcare Service/Home Page/h2_Profile' are matched.
+2025-06-24 15:34:52.863 TRACE c.k.katalon.core.main.TestCaseExecutor   - END null: verifyElementText(findTestObject("Object Repository/CURA Healthcare Service/Home Page/h2_Profile"), "Profile")
+2025-06-24 15:34:52.863 DEBUG c.k.katalon.core.main.TestCaseExecutor   - ✓ Test Cases/Week 1 - Kickstart Test Automation/Check User Profile
+2025-06-24 15:34:54.914 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Week 1 - Kickstart Test Automation/Check User Profile
+2025-06-24 15:34:54.916 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-24 15:34:54.916 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Week 1 - Kickstart Test Automation/Logout User
+2025-06-24 15:34:54.922 DEBUG c.k.katalon.core.main.TestCaseExecutor   - Evaluating variables for test case
+2025-06-24 15:34:54.970 DEBUG testcase.Logout User                     - 1: callTestCase(findTestCase("Reusable Modules/Login"), ["UserName":findTestData("Valid User Credentials").getValue("UserName", 1), "Password":findTestData("Valid User Credentials").getValue("Password", 1)], STOP_ON_FAILURE)
+2025-06-24 15:34:54.972 DEBUG c.k.k.core.testdata.TestDataFactory      - Checking test data id
+2025-06-24 15:34:54.973 DEBUG c.k.k.core.testdata.TestDataFactory      - Finding test data with id 'Data Files/Valid User Credentials'
+2025-06-24 15:34:54.975 DEBUG c.k.k.core.testdata.TestDataFactory      - Test data is excel file, reading excel file
+2025-06-24 15:34:54.975 DEBUG c.k.k.core.testdata.TestDataFactory      - Reading excel file with source file 'C:\Users\user\Documents\Valid User Credentials.xlsx' and sheet name 'Sheet1'
+2025-06-24 15:34:55.358 DEBUG c.k.k.core.testdata.TestDataFactory      - Checking test data id
+2025-06-24 15:34:55.359 DEBUG c.k.k.core.testdata.TestDataFactory      - Finding test data with id 'Data Files/Valid User Credentials'
+2025-06-24 15:34:55.361 DEBUG c.k.k.core.testdata.TestDataFactory      - Test data is excel file, reading excel file
+2025-06-24 15:34:55.361 DEBUG c.k.k.core.testdata.TestDataFactory      - Reading excel file with source file 'C:\Users\user\Documents\Valid User Credentials.xlsx' and sheet name 'Sheet1'
+2025-06-24 15:34:55.372 DEBUG c.k.k.c.k.builtin.CallTestCaseKeyword    - Checking called Test Case
+2025-06-24 15:34:55.372 DEBUG c.k.k.c.k.builtin.CallTestCaseKeyword    - Starting to call Test Case 'Test Cases/Reusable Modules/Login'
+2025-06-24 15:34:55.438 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-24 15:34:55.438 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Reusable Modules/Login
+2025-06-24 15:34:55.445 DEBUG c.k.katalon.core.main.TestCaseExecutor   - Evaluating variables for test case
+2025-06-24 15:34:55.447 INFO  c.k.katalon.core.main.TestCaseExecutor   - UserName = John Doe
+2025-06-24 15:34:55.447 INFO  c.k.katalon.core.main.TestCaseExecutor   - Password = ********
+2025-06-24 15:34:55.449 DEBUG testcase.Login                           - 1: openBrowser("")
+2025-06-24 15:34:55.453 DEBUG c.k.k.c.w.k.builtin.OpenBrowserKeyword   - Opening browser
+2025-06-24 15:34:55.453 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-06-24 15:34:55.748 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-06-24 15:34:55.749 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Use managed Chrome browser & driver
+2025-06-24 15:34:55.749 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking and download if needed Chrome browser and driver for Chrome for Testing version latest (This may take a while in case of downloading needed)
+2025-06-24 15:34:55.938 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking Chrome browser and driver completed in 189 ms
+2025-06-24 15:34:55.939 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome driver path: C:\Users\user\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-06-24 15:34:55.939 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome browser path: C:\Users\user\.cache\selenium\chrome\win64\137.0.7151.119\chrome.exe
+2025-06-24 15:34:55.939 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jun 24, 2025 3:34:56 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 24, 2025 3:34:56 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.119. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-24 15:34:56.685 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 7c278ec1c75bf62c23cfd039978ad613
+2025-06-24 15:34:56.686 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.119
+2025-06-24 15:34:56.686 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-06-24 15:34:56.686 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-24 15:34:56.687 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-24 15:34:56.702 DEBUG c.k.k.c.w.k.builtin.OpenBrowserKeyword   - ✓ Browser is opened with url: ''
+2025-06-24 15:34:56.704 DEBUG testcase.Login                           - 2: navigateToUrl(G_MainURL)
+2025-06-24 15:34:56.712 DEBUG c.k.k.c.w.k.b.NavigateToUrlKeyword       - Checking url
+2025-06-24 15:34:56.712 DEBUG c.k.k.c.w.k.b.NavigateToUrlKeyword       - Navigating to 'https://katalon-demo-cura.herokuapp.com/'
+2025-06-24 15:34:58.454 DEBUG c.k.k.c.w.k.b.NavigateToUrlKeyword       - ✓ Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+2025-06-24 15:34:58.456 DEBUG testcase.Login                           - 3: click(findTestObject("Object Repository/CURA Healthcare Service/Home Page/a_Make Appointment"))
+2025-06-24 15:34:58.457 DEBUG c.k.k.core.testobject.ObjectRepository   - Finding Test Object 'Object Repository/CURA Healthcare Service/Home Page/a_Make Appointment'
+2025-06-24 15:34:58.463 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking object
+2025-06-24 15:34:58.464 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:34:58.464 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-24 15:34:58.464 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:34:58.464 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Home Page/a_Make Appointment' located by 'By.xpath: //a[@id='btn-make-appointment']' in '30' second(s)
+2025-06-24 15:34:58.465 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:34:58.719 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Home Page/a_Make Appointment' located by 'By.xpath: //a[@id='btn-make-appointment']' in '30' second(s)
+2025-06-24 15:34:58.720 DEBUG c.k.k.c.w.keyword.builtin.ClickKeyword   - Clicking on object: 'Object Repository/CURA Healthcare Service/Home Page/a_Make Appointment'
+2025-06-24 15:34:59.035 DEBUG c.k.k.c.w.keyword.builtin.ClickKeyword   - ✓ Object: 'Object Repository/CURA Healthcare Service/Home Page/a_Make Appointment' is clicked on
+2025-06-24 15:34:59.037 DEBUG testcase.Login                           - 4: if (!(UserName))
+2025-06-24 15:34:59.038 DEBUG testcase.Login                           - 5: if (!(Password))
+2025-06-24 15:34:59.039 DEBUG testcase.Login                           - 6: setText(findTestObject("Object Repository/CURA Healthcare Service/Login/input_Username_username"), UserName)
+2025-06-24 15:34:59.040 DEBUG c.k.k.core.testobject.ObjectRepository   - Finding Test Object 'Object Repository/CURA Healthcare Service/Login/input_Username_username'
+2025-06-24 15:34:59.046 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking object
+2025-06-24 15:34:59.047 DEBUG c.k.k.c.w.k.builtin.SetTextKeyword       - Checking text
+2025-06-24 15:34:59.047 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-24 15:34:59.047 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:34:59.047 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Login/input_Username_username' located by 'By.xpath: //input[@id='txt-username']' in '30' second(s)
+2025-06-24 15:34:59.048 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:34:59.405 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Login/input_Username_username' located by 'By.xpath: //input[@id='txt-username']' in '30' second(s)
+2025-06-24 15:34:59.405 DEBUG c.k.k.c.w.k.builtin.SetTextKeyword       - Clearing text of object 'Object Repository/CURA Healthcare Service/Login/input_Username_username'
+2025-06-24 15:34:59.427 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-24 15:34:59.428 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:34:59.428 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Login/input_Username_username' located by 'By.xpath: //input[@id='txt-username']' in '30' second(s)
+2025-06-24 15:34:59.428 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:34:59.651 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Login/input_Username_username' located by 'By.xpath: //input[@id='txt-username']' in '30' second(s)
+2025-06-24 15:34:59.657 DEBUG c.k.k.c.w.k.builtin.SetTextKeyword       - Setting text of object 'Object Repository/CURA Healthcare Service/Login/input_Username_username' to value 'John Doe'
+2025-06-24 15:34:59.697 DEBUG c.k.k.c.w.k.builtin.SetTextKeyword       - ✓ Text 'John Doe' is set on object 'Object Repository/CURA Healthcare Service/Login/input_Username_username'
+2025-06-24 15:34:59.698 DEBUG testcase.Login                           - 7: setEncryptedText(findTestObject("Object Repository/CURA Healthcare Service/Login/input_Password_password"), Auth.EncryptText(Password))
+2025-06-24 15:34:59.699 DEBUG c.k.k.core.testobject.ObjectRepository   - Finding Test Object 'Object Repository/CURA Healthcare Service/Login/input_Password_password'
+2025-06-24 15:34:59.702 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - Auth.EncryptText is PASSED
+2025-06-24 15:34:59.705 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking object
+2025-06-24 15:34:59.705 DEBUG c.k.k.c.w.k.b.SetEncryptedTextKeyword    - Checking text
+2025-06-24 15:34:59.705 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-24 15:34:59.705 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:34:59.706 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Login/input_Password_password' located by 'By.xpath: //input[@id='txt-password']' in '30' second(s)
+2025-06-24 15:34:59.706 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:34:59.931 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Login/input_Password_password' located by 'By.xpath: //input[@id='txt-password']' in '30' second(s)
+2025-06-24 15:34:59.931 DEBUG c.k.k.c.w.k.b.SetEncryptedTextKeyword    - Clearing text of object 'Object Repository/CURA Healthcare Service/Login/input_Password_password'
+2025-06-24 15:34:59.946 DEBUG c.k.k.c.w.k.b.SetEncryptedTextKeyword    - Setting  text of object 'Object Repository/CURA Healthcare Service/Login/input_Password_password' to value ******
+2025-06-24 15:35:00.001 DEBUG c.k.k.c.w.k.b.SetEncryptedTextKeyword    - ✓ Text ****** has been set on object 'Object Repository/CURA Healthcare Service/Login/input_Password_password'
+2025-06-24 15:35:00.003 DEBUG testcase.Login                           - 8: click(findTestObject("Object Repository/CURA Healthcare Service/Login/button_Login"))
+2025-06-24 15:35:00.003 DEBUG c.k.k.core.testobject.ObjectRepository   - Finding Test Object 'Object Repository/CURA Healthcare Service/Login/button_Login'
+2025-06-24 15:35:00.007 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking object
+2025-06-24 15:35:00.009 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:00.009 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-24 15:35:00.009 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:00.009 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Login/button_Login' located by 'By.xpath: //button[@id='btn-login']' in '30' second(s)
+2025-06-24 15:35:00.009 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:35:00.235 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Login/button_Login' located by 'By.xpath: //button[@id='btn-login']' in '30' second(s)
+2025-06-24 15:35:00.235 DEBUG c.k.k.c.w.keyword.builtin.ClickKeyword   - Clicking on object: 'Object Repository/CURA Healthcare Service/Login/button_Login'
+2025-06-24 15:35:00.551 DEBUG c.k.k.c.w.keyword.builtin.ClickKeyword   - ✓ Object: 'Object Repository/CURA Healthcare Service/Login/button_Login' is clicked on
+2025-06-24 15:35:00.552 DEBUG testcase.Login                           - 9: verifyElementText(findTestObject("Object Repository/CURA Healthcare Service/Home Page/h2_Make Appointment"), "Make Appointment")
+2025-06-24 15:35:00.553 DEBUG c.k.k.core.testobject.ObjectRepository   - Finding Test Object 'Object Repository/CURA Healthcare Service/Home Page/h2_Make Appointment'
+2025-06-24 15:35:00.559 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking object
+2025-06-24 15:35:00.560 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-24 15:35:00.560 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:00.560 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Home Page/h2_Make Appointment' located by 'By.xpath: //section[@id='appointment']/div/div/div/h2' in '30' second(s)
+2025-06-24 15:35:00.561 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:35:01.041 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Home Page/h2_Make Appointment' located by 'By.xpath: //section[@id='appointment']/div/div/div/h2' in '30' second(s)
+2025-06-24 15:35:01.051 DEBUG c.k.k.c.w.k.b.VerifyElementTextKeyword   - ✓ Actual text and expected text of test object 'Object Repository/CURA Healthcare Service/Home Page/h2_Make Appointment' are matched.
+2025-06-24 15:35:01.052 TRACE c.k.katalon.core.main.TestCaseExecutor   - END null: verifyElementText(findTestObject("Object Repository/CURA Healthcare Service/Home Page/h2_Make Appointment"), "Make Appointment")
+2025-06-24 15:35:01.052 DEBUG c.k.katalon.core.main.TestCaseExecutor   - ✓ Test Cases/Reusable Modules/Login
+2025-06-24 15:35:01.052 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Reusable Modules/Login
+2025-06-24 15:35:01.052 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-24 15:35:01.052 DEBUG c.k.k.c.k.builtin.CallTestCaseKeyword    - ✓ Call Test Case 'Test Cases/Reusable Modules/Login' successfully
+2025-06-24 15:35:01.054 DEBUG testcase.Logout User                     - 2: callTestCase(findTestCase("Reusable Modules/Logout"), [:], STOP_ON_FAILURE)
+2025-06-24 15:35:01.057 DEBUG c.k.k.c.k.builtin.CallTestCaseKeyword    - Checking called Test Case
+2025-06-24 15:35:01.057 DEBUG c.k.k.c.k.builtin.CallTestCaseKeyword    - Starting to call Test Case 'Test Cases/Reusable Modules/Logout'
+2025-06-24 15:35:01.109 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-24 15:35:01.109 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Reusable Modules/Logout
+2025-06-24 15:35:01.116 DEBUG c.k.katalon.core.main.TestCaseExecutor   - Evaluating variables for test case
+2025-06-24 15:35:01.161 DEBUG testcase.Logout                          - 1: click(findTestObject("Object Repository/CURA Healthcare Service/Logout/i_CURA Healthcare_fa fa-bars"))
+2025-06-24 15:35:01.162 DEBUG c.k.k.core.testobject.ObjectRepository   - Finding Test Object 'Object Repository/CURA Healthcare Service/Logout/i_CURA Healthcare_fa fa-bars'
+2025-06-24 15:35:01.167 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking object
+2025-06-24 15:35:01.167 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:01.167 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-24 15:35:01.167 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:01.167 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Logout/i_CURA Healthcare_fa fa-bars' located by 'By.xpath: //a[@id='menu-toggle']/i' in '30' second(s)
+2025-06-24 15:35:01.167 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:35:01.397 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Logout/i_CURA Healthcare_fa fa-bars' located by 'By.xpath: //a[@id='menu-toggle']/i' in '30' second(s)
+2025-06-24 15:35:01.397 DEBUG c.k.k.c.w.keyword.builtin.ClickKeyword   - Clicking on object: 'Object Repository/CURA Healthcare Service/Logout/i_CURA Healthcare_fa fa-bars'
+2025-06-24 15:35:01.434 DEBUG c.k.k.c.w.keyword.builtin.ClickKeyword   - ✓ Object: 'Object Repository/CURA Healthcare Service/Logout/i_CURA Healthcare_fa fa-bars' is clicked on
+2025-06-24 15:35:01.436 DEBUG testcase.Logout                          - 2: click(findTestObject("Object Repository/CURA Healthcare Service/Logout/a_Logout"))
+2025-06-24 15:35:01.437 DEBUG c.k.k.core.testobject.ObjectRepository   - Finding Test Object 'Object Repository/CURA Healthcare Service/Logout/a_Logout'
+2025-06-24 15:35:01.442 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking object
+2025-06-24 15:35:01.442 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:01.442 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-24 15:35:01.442 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:01.443 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Logout/a_Logout' located by 'By.xpath: (//a[@onclick="$('#menu-close').click();"])[5]' in '30' second(s)
+2025-06-24 15:35:01.443 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:35:01.673 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Logout/a_Logout' located by 'By.xpath: (//a[@onclick="$('#menu-close').click();"])[5]' in '30' second(s)
+2025-06-24 15:35:01.674 DEBUG c.k.k.c.w.keyword.builtin.ClickKeyword   - Clicking on object: 'Object Repository/CURA Healthcare Service/Logout/a_Logout'
+2025-06-24 15:35:02.028 DEBUG c.k.k.c.w.keyword.builtin.ClickKeyword   - ✓ Object: 'Object Repository/CURA Healthcare Service/Logout/a_Logout' is clicked on
+2025-06-24 15:35:02.030 DEBUG testcase.Logout                          - 3: navigateToUrl(G_MainURL)
+2025-06-24 15:35:02.035 DEBUG c.k.k.c.w.k.b.NavigateToUrlKeyword       - Checking url
+2025-06-24 15:35:02.036 DEBUG c.k.k.c.w.k.b.NavigateToUrlKeyword       - Navigating to 'https://katalon-demo-cura.herokuapp.com/'
+2025-06-24 15:35:02.212 DEBUG c.k.k.c.w.k.b.NavigateToUrlKeyword       - ✓ Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+2025-06-24 15:35:02.214 DEBUG testcase.Logout                          - 4: verifyElementText(findTestObject("Object Repository/CURA Healthcare Service/Home Page/h1_CURA Healthcare Service"), "CURA Healthcare Service")
+2025-06-24 15:35:02.215 DEBUG c.k.k.core.testobject.ObjectRepository   - Finding Test Object 'Object Repository/CURA Healthcare Service/Home Page/h1_CURA Healthcare Service'
+2025-06-24 15:35:02.224 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking object
+2025-06-24 15:35:02.224 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-24 15:35:02.224 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:02.224 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Home Page/h1_CURA Healthcare Service' located by 'By.xpath: //header[@id='top']/div/h1' in '30' second(s)
+2025-06-24 15:35:02.225 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:35:02.669 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Home Page/h1_CURA Healthcare Service' located by 'By.xpath: //header[@id='top']/div/h1' in '30' second(s)
+2025-06-24 15:35:02.675 DEBUG c.k.k.c.w.k.b.VerifyElementTextKeyword   - ✓ Actual text and expected text of test object 'Object Repository/CURA Healthcare Service/Home Page/h1_CURA Healthcare Service' are matched.
+2025-06-24 15:35:02.676 TRACE c.k.katalon.core.main.TestCaseExecutor   - END null: verifyElementText(findTestObject("Object Repository/CURA Healthcare Service/Home Page/h1_CURA Healthcare Service"), "CURA Healthcare Service")
+2025-06-24 15:35:02.676 DEBUG c.k.katalon.core.main.TestCaseExecutor   - ✓ Test Cases/Reusable Modules/Logout
+2025-06-24 15:35:02.676 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Reusable Modules/Logout
+2025-06-24 15:35:02.676 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-24 15:35:02.676 DEBUG c.k.k.c.k.builtin.CallTestCaseKeyword    - ✓ Call Test Case 'Test Cases/Reusable Modules/Logout' successfully
+2025-06-24 15:35:02.677 TRACE c.k.katalon.core.main.TestCaseExecutor   - END null: callTestCase(findTestCase("Reusable Modules/Logout"), [:], STOP_ON_FAILURE)
+2025-06-24 15:35:02.677 DEBUG c.k.katalon.core.main.TestCaseExecutor   - ✓ Test Cases/Week 1 - Kickstart Test Automation/Logout User
+2025-06-24 15:35:04.701 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Week 1 - Kickstart Test Automation/Logout User
+2025-06-24 15:35:04.703 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-24 15:35:04.703 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Week 1 - Kickstart Test Automation/Reserve A Medical Appointment
+2025-06-24 15:35:04.709 DEBUG c.k.katalon.core.main.TestCaseExecutor   - Evaluating variables for test case
+2025-06-24 15:35:04.753 DEBUG testcase.Reserve A Medical Appointment   - 1: callTestCase(findTestCase("Reusable Modules/Login"), ["UserName":findTestData("Valid User Credentials").getValue("UserName", 1), "Password":findTestData("Valid User Credentials").getValue("Password", 1)], STOP_ON_FAILURE)
+2025-06-24 15:35:04.753 DEBUG c.k.k.core.testdata.TestDataFactory      - Checking test data id
+2025-06-24 15:35:04.753 DEBUG c.k.k.core.testdata.TestDataFactory      - Finding test data with id 'Data Files/Valid User Credentials'
+2025-06-24 15:35:04.758 DEBUG c.k.k.core.testdata.TestDataFactory      - Test data is excel file, reading excel file
+2025-06-24 15:35:04.758 DEBUG c.k.k.core.testdata.TestDataFactory      - Reading excel file with source file 'C:\Users\user\Documents\Valid User Credentials.xlsx' and sheet name 'Sheet1'
+2025-06-24 15:35:04.766 DEBUG c.k.k.core.testdata.TestDataFactory      - Checking test data id
+2025-06-24 15:35:04.766 DEBUG c.k.k.core.testdata.TestDataFactory      - Finding test data with id 'Data Files/Valid User Credentials'
+2025-06-24 15:35:04.769 DEBUG c.k.k.core.testdata.TestDataFactory      - Test data is excel file, reading excel file
+2025-06-24 15:35:04.769 DEBUG c.k.k.core.testdata.TestDataFactory      - Reading excel file with source file 'C:\Users\user\Documents\Valid User Credentials.xlsx' and sheet name 'Sheet1'
+2025-06-24 15:35:04.776 DEBUG c.k.k.c.k.builtin.CallTestCaseKeyword    - Checking called Test Case
+2025-06-24 15:35:04.776 DEBUG c.k.k.c.k.builtin.CallTestCaseKeyword    - Starting to call Test Case 'Test Cases/Reusable Modules/Login'
+2025-06-24 15:35:04.834 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-24 15:35:04.834 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Reusable Modules/Login
+2025-06-24 15:35:04.842 DEBUG c.k.katalon.core.main.TestCaseExecutor   - Evaluating variables for test case
+2025-06-24 15:35:04.842 INFO  c.k.katalon.core.main.TestCaseExecutor   - UserName = John Doe
+2025-06-24 15:35:04.842 INFO  c.k.katalon.core.main.TestCaseExecutor   - Password = ********
+2025-06-24 15:35:04.844 DEBUG testcase.Login                           - 1: openBrowser("")
+2025-06-24 15:35:04.847 DEBUG c.k.k.c.w.k.builtin.OpenBrowserKeyword   - Opening browser
+2025-06-24 15:35:04.847 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-06-24 15:35:05.138 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-06-24 15:35:05.139 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Use managed Chrome browser & driver
+2025-06-24 15:35:05.139 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking and download if needed Chrome browser and driver for Chrome for Testing version latest (This may take a while in case of downloading needed)
+2025-06-24 15:35:05.329 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking Chrome browser and driver completed in 190 ms
+2025-06-24 15:35:05.329 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome driver path: C:\Users\user\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-06-24 15:35:05.329 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome browser path: C:\Users\user\.cache\selenium\chrome\win64\137.0.7151.119\chrome.exe
+2025-06-24 15:35:05.329 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jun 24, 2025 3:35:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 24, 2025 3:35:06 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.119. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-24 15:35:06.088 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 9cf014856d13371fd0c200daca5cb56b
+2025-06-24 15:35:06.088 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.119
+2025-06-24 15:35:06.089 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-06-24 15:35:06.089 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-24 15:35:06.089 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-24 15:35:06.103 DEBUG c.k.k.c.w.k.builtin.OpenBrowserKeyword   - ✓ Browser is opened with url: ''
+2025-06-24 15:35:06.105 DEBUG testcase.Login                           - 2: navigateToUrl(G_MainURL)
+2025-06-24 15:35:06.109 DEBUG c.k.k.c.w.k.b.NavigateToUrlKeyword       - Checking url
+2025-06-24 15:35:06.109 DEBUG c.k.k.c.w.k.b.NavigateToUrlKeyword       - Navigating to 'https://katalon-demo-cura.herokuapp.com/'
+2025-06-24 15:35:07.845 DEBUG c.k.k.c.w.k.b.NavigateToUrlKeyword       - ✓ Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+2025-06-24 15:35:07.847 DEBUG testcase.Login                           - 3: click(findTestObject("Object Repository/CURA Healthcare Service/Home Page/a_Make Appointment"))
+2025-06-24 15:35:07.848 DEBUG c.k.k.core.testobject.ObjectRepository   - Finding Test Object 'Object Repository/CURA Healthcare Service/Home Page/a_Make Appointment'
+2025-06-24 15:35:07.853 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking object
+2025-06-24 15:35:07.854 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:07.854 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-24 15:35:07.854 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:07.855 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Home Page/a_Make Appointment' located by 'By.xpath: //a[@id='btn-make-appointment']' in '30' second(s)
+2025-06-24 15:35:07.855 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:35:08.112 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Home Page/a_Make Appointment' located by 'By.xpath: //a[@id='btn-make-appointment']' in '30' second(s)
+2025-06-24 15:35:08.113 DEBUG c.k.k.c.w.keyword.builtin.ClickKeyword   - Clicking on object: 'Object Repository/CURA Healthcare Service/Home Page/a_Make Appointment'
+2025-06-24 15:35:08.405 DEBUG c.k.k.c.w.keyword.builtin.ClickKeyword   - ✓ Object: 'Object Repository/CURA Healthcare Service/Home Page/a_Make Appointment' is clicked on
+2025-06-24 15:35:08.406 DEBUG testcase.Login                           - 4: if (!(UserName))
+2025-06-24 15:35:08.407 DEBUG testcase.Login                           - 5: if (!(Password))
+2025-06-24 15:35:08.408 DEBUG testcase.Login                           - 6: setText(findTestObject("Object Repository/CURA Healthcare Service/Login/input_Username_username"), UserName)
+2025-06-24 15:35:08.408 DEBUG c.k.k.core.testobject.ObjectRepository   - Finding Test Object 'Object Repository/CURA Healthcare Service/Login/input_Username_username'
+2025-06-24 15:35:08.412 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking object
+2025-06-24 15:35:08.413 DEBUG c.k.k.c.w.k.builtin.SetTextKeyword       - Checking text
+2025-06-24 15:35:08.413 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-24 15:35:08.413 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:08.413 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Login/input_Username_username' located by 'By.xpath: //input[@id='txt-username']' in '30' second(s)
+2025-06-24 15:35:08.413 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:35:08.759 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Login/input_Username_username' located by 'By.xpath: //input[@id='txt-username']' in '30' second(s)
+2025-06-24 15:35:08.760 DEBUG c.k.k.c.w.k.builtin.SetTextKeyword       - Clearing text of object 'Object Repository/CURA Healthcare Service/Login/input_Username_username'
+2025-06-24 15:35:08.783 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-24 15:35:08.783 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:08.783 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Login/input_Username_username' located by 'By.xpath: //input[@id='txt-username']' in '30' second(s)
+2025-06-24 15:35:08.783 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:35:09.008 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Login/input_Username_username' located by 'By.xpath: //input[@id='txt-username']' in '30' second(s)
+2025-06-24 15:35:09.014 DEBUG c.k.k.c.w.k.builtin.SetTextKeyword       - Setting text of object 'Object Repository/CURA Healthcare Service/Login/input_Username_username' to value 'John Doe'
+2025-06-24 15:35:09.058 DEBUG c.k.k.c.w.k.builtin.SetTextKeyword       - ✓ Text 'John Doe' is set on object 'Object Repository/CURA Healthcare Service/Login/input_Username_username'
+2025-06-24 15:35:09.059 DEBUG testcase.Login                           - 7: setEncryptedText(findTestObject("Object Repository/CURA Healthcare Service/Login/input_Password_password"), Auth.EncryptText(Password))
+2025-06-24 15:35:09.059 DEBUG c.k.k.core.testobject.ObjectRepository   - Finding Test Object 'Object Repository/CURA Healthcare Service/Login/input_Password_password'
+2025-06-24 15:35:09.061 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - Auth.EncryptText is PASSED
+2025-06-24 15:35:09.063 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking object
+2025-06-24 15:35:09.063 DEBUG c.k.k.c.w.k.b.SetEncryptedTextKeyword    - Checking text
+2025-06-24 15:35:09.063 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-24 15:35:09.065 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:09.065 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Login/input_Password_password' located by 'By.xpath: //input[@id='txt-password']' in '30' second(s)
+2025-06-24 15:35:09.065 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:35:09.293 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Login/input_Password_password' located by 'By.xpath: //input[@id='txt-password']' in '30' second(s)
+2025-06-24 15:35:09.294 DEBUG c.k.k.c.w.k.b.SetEncryptedTextKeyword    - Clearing text of object 'Object Repository/CURA Healthcare Service/Login/input_Password_password'
+2025-06-24 15:35:09.310 DEBUG c.k.k.c.w.k.b.SetEncryptedTextKeyword    - Setting  text of object 'Object Repository/CURA Healthcare Service/Login/input_Password_password' to value ******
+2025-06-24 15:35:09.359 DEBUG c.k.k.c.w.k.b.SetEncryptedTextKeyword    - ✓ Text ****** has been set on object 'Object Repository/CURA Healthcare Service/Login/input_Password_password'
+2025-06-24 15:35:09.360 DEBUG testcase.Login                           - 8: click(findTestObject("Object Repository/CURA Healthcare Service/Login/button_Login"))
+2025-06-24 15:35:09.361 DEBUG c.k.k.core.testobject.ObjectRepository   - Finding Test Object 'Object Repository/CURA Healthcare Service/Login/button_Login'
+2025-06-24 15:35:09.364 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking object
+2025-06-24 15:35:09.366 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:09.366 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-24 15:35:09.366 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:09.366 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Login/button_Login' located by 'By.xpath: //button[@id='btn-login']' in '30' second(s)
+2025-06-24 15:35:09.366 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:35:09.599 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Login/button_Login' located by 'By.xpath: //button[@id='btn-login']' in '30' second(s)
+2025-06-24 15:35:09.599 DEBUG c.k.k.c.w.keyword.builtin.ClickKeyword   - Clicking on object: 'Object Repository/CURA Healthcare Service/Login/button_Login'
+2025-06-24 15:35:09.918 DEBUG c.k.k.c.w.keyword.builtin.ClickKeyword   - ✓ Object: 'Object Repository/CURA Healthcare Service/Login/button_Login' is clicked on
+2025-06-24 15:35:09.919 DEBUG testcase.Login                           - 9: verifyElementText(findTestObject("Object Repository/CURA Healthcare Service/Home Page/h2_Make Appointment"), "Make Appointment")
+2025-06-24 15:35:09.920 DEBUG c.k.k.core.testobject.ObjectRepository   - Finding Test Object 'Object Repository/CURA Healthcare Service/Home Page/h2_Make Appointment'
+2025-06-24 15:35:09.924 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking object
+2025-06-24 15:35:09.925 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-24 15:35:09.925 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:09.925 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Home Page/h2_Make Appointment' located by 'By.xpath: //section[@id='appointment']/div/div/div/h2' in '30' second(s)
+2025-06-24 15:35:09.925 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:35:10.408 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Home Page/h2_Make Appointment' located by 'By.xpath: //section[@id='appointment']/div/div/div/h2' in '30' second(s)
+2025-06-24 15:35:10.419 DEBUG c.k.k.c.w.k.b.VerifyElementTextKeyword   - ✓ Actual text and expected text of test object 'Object Repository/CURA Healthcare Service/Home Page/h2_Make Appointment' are matched.
+2025-06-24 15:35:10.419 TRACE c.k.katalon.core.main.TestCaseExecutor   - END null: verifyElementText(findTestObject("Object Repository/CURA Healthcare Service/Home Page/h2_Make Appointment"), "Make Appointment")
+2025-06-24 15:35:10.420 DEBUG c.k.katalon.core.main.TestCaseExecutor   - ✓ Test Cases/Reusable Modules/Login
+2025-06-24 15:35:10.420 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Reusable Modules/Login
+2025-06-24 15:35:10.420 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-24 15:35:10.420 DEBUG c.k.k.c.k.builtin.CallTestCaseKeyword    - ✓ Call Test Case 'Test Cases/Reusable Modules/Login' successfully
+2025-06-24 15:35:10.422 DEBUG testcase.Reserve A Medical Appointment   - 2: callTestCase(findTestCase("Reusable Modules/Make Appointment"), [:], STOP_ON_FAILURE)
+2025-06-24 15:35:10.425 DEBUG c.k.k.c.k.builtin.CallTestCaseKeyword    - Checking called Test Case
+2025-06-24 15:35:10.425 DEBUG c.k.k.c.k.builtin.CallTestCaseKeyword    - Starting to call Test Case 'Test Cases/Reusable Modules/Make Appointment'
+2025-06-24 15:35:10.477 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-24 15:35:10.477 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Reusable Modules/Make Appointment
+2025-06-24 15:35:10.488 DEBUG c.k.katalon.core.main.TestCaseExecutor   - Evaluating variables for test case
+2025-06-24 15:35:10.521 DEBUG testcase.Make Appointment                - 1: selectOptionByValue(findTestObject("Object Repository/CURA Healthcare Service/Make Appointment/select_Tokyo CURA Healthcare Center        _5b4107"), "Seoul CURA Healthcare Center", true)
+2025-06-24 15:35:10.522 DEBUG c.k.k.core.testobject.ObjectRepository   - Finding Test Object 'Object Repository/CURA Healthcare Service/Make Appointment/select_Tokyo CURA Healthcare Center        _5b4107'
+2025-06-24 15:35:10.535 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking object
+2025-06-24 15:35:10.536 DEBUG c.k.k.c.w.k.b.SelectOptionByValueKeyword - Checking value parameter
+2025-06-24 15:35:10.536 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-24 15:35:10.536 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:10.536 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Make Appointment/select_Tokyo CURA Healthcare Center        _5b4107' located by 'By.xpath: //select[@id='combo_facility']' in '30' second(s)
+2025-06-24 15:35:10.536 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:35:10.758 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Make Appointment/select_Tokyo CURA Healthcare Center        _5b4107' located by 'By.xpath: //select[@id='combo_facility']' in '30' second(s)
+2025-06-24 15:35:10.780 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Selecting options on object 'Object Repository/CURA Healthcare Service/Make Appointment/select_Tokyo CURA Healthcare Center        _5b4107' with value 'Seoul CURA Healthcare Center' using regular expression
+2025-06-24 15:35:10.780 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:35:11.025 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:35:11.296 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Option at index '2' with value 'Seoul CURA Healthcare Center' is selected  using regular expression
+2025-06-24 15:35:11.296 DEBUG c.k.k.c.w.k.b.SelectOptionByValueKeyword - ✓ All options with value 'Seoul CURA Healthcare Center' are selected in object 'Object Repository/CURA Healthcare Service/Make Appointment/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+2025-06-24 15:35:11.298 DEBUG testcase.Make Appointment                - 2: click(findTestObject("Object Repository/CURA Healthcare Service/Make Appointment/input_Apply for hospital readmission_hospit_63901f"))
+2025-06-24 15:35:11.299 DEBUG c.k.k.core.testobject.ObjectRepository   - Finding Test Object 'Object Repository/CURA Healthcare Service/Make Appointment/input_Apply for hospital readmission_hospit_63901f'
+2025-06-24 15:35:11.303 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking object
+2025-06-24 15:35:11.304 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:11.304 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-24 15:35:11.304 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:11.305 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Make Appointment/input_Apply for hospital readmission_hospit_63901f' located by 'By.xpath: //input[@id='chk_hospotal_readmission']' in '30' second(s)
+2025-06-24 15:35:11.305 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:35:11.532 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Make Appointment/input_Apply for hospital readmission_hospit_63901f' located by 'By.xpath: //input[@id='chk_hospotal_readmission']' in '30' second(s)
+2025-06-24 15:35:11.532 DEBUG c.k.k.c.w.keyword.builtin.ClickKeyword   - Clicking on object: 'Object Repository/CURA Healthcare Service/Make Appointment/input_Apply for hospital readmission_hospit_63901f'
+2025-06-24 15:35:11.572 DEBUG c.k.k.c.w.keyword.builtin.ClickKeyword   - ✓ Object: 'Object Repository/CURA Healthcare Service/Make Appointment/input_Apply for hospital readmission_hospit_63901f' is clicked on
+2025-06-24 15:35:11.573 DEBUG testcase.Make Appointment                - 3: click(findTestObject("Object Repository/CURA Healthcare Service/Make Appointment/label_Medicaid"))
+2025-06-24 15:35:11.574 DEBUG c.k.k.core.testobject.ObjectRepository   - Finding Test Object 'Object Repository/CURA Healthcare Service/Make Appointment/label_Medicaid'
+2025-06-24 15:35:11.589 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking object
+2025-06-24 15:35:11.589 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:11.589 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-24 15:35:11.589 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:11.589 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Make Appointment/label_Medicaid' located by 'By.xpath: //section[@id='appointment']/div/div/form/div[3]/div/label[2]' in '30' second(s)
+2025-06-24 15:35:11.589 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:35:11.817 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Make Appointment/label_Medicaid' located by 'By.xpath: //section[@id='appointment']/div/div/form/div[3]/div/label[2]' in '30' second(s)
+2025-06-24 15:35:11.817 DEBUG c.k.k.c.w.keyword.builtin.ClickKeyword   - Clicking on object: 'Object Repository/CURA Healthcare Service/Make Appointment/label_Medicaid'
+2025-06-24 15:35:11.849 DEBUG c.k.k.c.w.keyword.builtin.ClickKeyword   - ✓ Object: 'Object Repository/CURA Healthcare Service/Make Appointment/label_Medicaid' is clicked on
+2025-06-24 15:35:11.851 DEBUG testcase.Make Appointment                - 4: click(findTestObject("Object Repository/CURA Healthcare Service/Make Appointment/span_Visit Date (Required)_glyphicon glyphi_cada34"))
+2025-06-24 15:35:11.852 DEBUG c.k.k.core.testobject.ObjectRepository   - Finding Test Object 'Object Repository/CURA Healthcare Service/Make Appointment/span_Visit Date (Required)_glyphicon glyphi_cada34'
+2025-06-24 15:35:11.865 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking object
+2025-06-24 15:35:11.866 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:11.866 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-24 15:35:11.866 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:11.866 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Make Appointment/span_Visit Date (Required)_glyphicon glyphi_cada34' located by 'By.xpath: //section[@id='appointment']/div/div/form/div[4]/div/div/div/span' in '30' second(s)
+2025-06-24 15:35:11.866 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:35:12.098 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Make Appointment/span_Visit Date (Required)_glyphicon glyphi_cada34' located by 'By.xpath: //section[@id='appointment']/div/div/form/div[4]/div/div/div/span' in '30' second(s)
+2025-06-24 15:35:12.099 DEBUG c.k.k.c.w.keyword.builtin.ClickKeyword   - Clicking on object: 'Object Repository/CURA Healthcare Service/Make Appointment/span_Visit Date (Required)_glyphicon glyphi_cada34'
+2025-06-24 15:35:12.141 DEBUG c.k.k.c.w.keyword.builtin.ClickKeyword   - ✓ Object: 'Object Repository/CURA Healthcare Service/Make Appointment/span_Visit Date (Required)_glyphicon glyphi_cada34' is clicked on
+2025-06-24 15:35:12.144 DEBUG testcase.Make Appointment                - 5: click(findTestObject("Object Repository/CURA Healthcare Service/Make Appointment/td_20"))
+2025-06-24 15:35:12.144 DEBUG c.k.k.core.testobject.ObjectRepository   - Finding Test Object 'Object Repository/CURA Healthcare Service/Make Appointment/td_20'
+2025-06-24 15:35:12.151 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking object
+2025-06-24 15:35:12.151 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:12.151 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-24 15:35:12.151 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:12.151 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Make Appointment/td_20' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Sa'])[1]/following::td[27]' in '30' second(s)
+2025-06-24 15:35:12.151 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:35:12.610 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Make Appointment/td_20' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Sa'])[1]/following::td[27]' in '30' second(s)
+2025-06-24 15:35:12.610 DEBUG c.k.k.c.w.keyword.builtin.ClickKeyword   - Clicking on object: 'Object Repository/CURA Healthcare Service/Make Appointment/td_20'
+2025-06-24 15:35:12.644 DEBUG c.k.k.c.w.keyword.builtin.ClickKeyword   - ✓ Object: 'Object Repository/CURA Healthcare Service/Make Appointment/td_20' is clicked on
+2025-06-24 15:35:12.646 DEBUG testcase.Make Appointment                - 6: setText(findTestObject("Object Repository/CURA Healthcare Service/Make Appointment/textarea_Comment_comment"), "test comment")
+2025-06-24 15:35:12.647 DEBUG c.k.k.core.testobject.ObjectRepository   - Finding Test Object 'Object Repository/CURA Healthcare Service/Make Appointment/textarea_Comment_comment'
+2025-06-24 15:35:12.653 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking object
+2025-06-24 15:35:12.653 DEBUG c.k.k.c.w.k.builtin.SetTextKeyword       - Checking text
+2025-06-24 15:35:12.653 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-24 15:35:12.653 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:12.654 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Make Appointment/textarea_Comment_comment' located by 'By.xpath: //textarea[@id='txt_comment']' in '30' second(s)
+2025-06-24 15:35:12.654 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:35:13.097 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Make Appointment/textarea_Comment_comment' located by 'By.xpath: //textarea[@id='txt_comment']' in '30' second(s)
+2025-06-24 15:35:13.098 DEBUG c.k.k.c.w.k.builtin.SetTextKeyword       - Clearing text of object 'Object Repository/CURA Healthcare Service/Make Appointment/textarea_Comment_comment'
+2025-06-24 15:35:13.112 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-24 15:35:13.112 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:13.112 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Make Appointment/textarea_Comment_comment' located by 'By.xpath: //textarea[@id='txt_comment']' in '30' second(s)
+2025-06-24 15:35:13.112 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:35:13.344 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Make Appointment/textarea_Comment_comment' located by 'By.xpath: //textarea[@id='txt_comment']' in '30' second(s)
+2025-06-24 15:35:13.348 DEBUG c.k.k.c.w.k.builtin.SetTextKeyword       - Setting text of object 'Object Repository/CURA Healthcare Service/Make Appointment/textarea_Comment_comment' to value 'test comment'
+2025-06-24 15:35:13.393 DEBUG c.k.k.c.w.k.builtin.SetTextKeyword       - ✓ Text 'test comment' is set on object 'Object Repository/CURA Healthcare Service/Make Appointment/textarea_Comment_comment'
+2025-06-24 15:35:13.395 DEBUG testcase.Make Appointment                - 7: click(findTestObject("Object Repository/CURA Healthcare Service/Make Appointment/button_Book Appointment"))
+2025-06-24 15:35:13.395 DEBUG c.k.k.core.testobject.ObjectRepository   - Finding Test Object 'Object Repository/CURA Healthcare Service/Make Appointment/button_Book Appointment'
+2025-06-24 15:35:13.400 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking object
+2025-06-24 15:35:13.401 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:13.401 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-24 15:35:13.401 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:13.401 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Make Appointment/button_Book Appointment' located by 'By.xpath: //button[@id='btn-book-appointment']' in '30' second(s)
+2025-06-24 15:35:13.401 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:35:13.634 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Make Appointment/button_Book Appointment' located by 'By.xpath: //button[@id='btn-book-appointment']' in '30' second(s)
+2025-06-24 15:35:13.634 DEBUG c.k.k.c.w.keyword.builtin.ClickKeyword   - Clicking on object: 'Object Repository/CURA Healthcare Service/Make Appointment/button_Book Appointment'
+2025-06-24 15:35:13.818 DEBUG c.k.k.c.w.keyword.builtin.ClickKeyword   - ✓ Object: 'Object Repository/CURA Healthcare Service/Make Appointment/button_Book Appointment' is clicked on
+2025-06-24 15:35:13.820 DEBUG testcase.Make Appointment                - 8: verifyElementText(findTestObject("Object Repository/CURA Healthcare Service/Make Appointment/h2_Appointment Confirmation"), "Appointment Confirmation")
+2025-06-24 15:35:13.821 DEBUG c.k.k.core.testobject.ObjectRepository   - Finding Test Object 'Object Repository/CURA Healthcare Service/Make Appointment/h2_Appointment Confirmation'
+2025-06-24 15:35:13.826 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking object
+2025-06-24 15:35:13.826 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-24 15:35:13.826 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:13.827 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Make Appointment/h2_Appointment Confirmation' located by 'By.xpath: //section[@id='summary']/div/div/div/h2' in '30' second(s)
+2025-06-24 15:35:13.827 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:35:14.310 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Make Appointment/h2_Appointment Confirmation' located by 'By.xpath: //section[@id='summary']/div/div/div/h2' in '30' second(s)
+2025-06-24 15:35:14.316 DEBUG c.k.k.c.w.k.b.VerifyElementTextKeyword   - ✓ Actual text and expected text of test object 'Object Repository/CURA Healthcare Service/Make Appointment/h2_Appointment Confirmation' are matched.
+2025-06-24 15:35:14.317 TRACE c.k.katalon.core.main.TestCaseExecutor   - END null: verifyElementText(findTestObject("Object Repository/CURA Healthcare Service/Make Appointment/h2_Appointment Confirmation"), "Appointment Confirmation")
+2025-06-24 15:35:14.317 DEBUG c.k.katalon.core.main.TestCaseExecutor   - ✓ Test Cases/Reusable Modules/Make Appointment
+2025-06-24 15:35:14.317 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Reusable Modules/Make Appointment
+2025-06-24 15:35:14.317 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-24 15:35:14.317 DEBUG c.k.k.c.k.builtin.CallTestCaseKeyword    - ✓ Call Test Case 'Test Cases/Reusable Modules/Make Appointment' successfully
+2025-06-24 15:35:14.319 DEBUG testcase.Reserve A Medical Appointment   - 3: callTestCase(findTestCase("Reusable Modules/Logout"), [:], STOP_ON_FAILURE)
+2025-06-24 15:35:14.322 DEBUG c.k.k.c.k.builtin.CallTestCaseKeyword    - Checking called Test Case
+2025-06-24 15:35:14.322 DEBUG c.k.k.c.k.builtin.CallTestCaseKeyword    - Starting to call Test Case 'Test Cases/Reusable Modules/Logout'
+2025-06-24 15:35:14.376 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-24 15:35:14.376 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Reusable Modules/Logout
+2025-06-24 15:35:14.378 DEBUG c.k.katalon.core.main.TestCaseExecutor   - Evaluating variables for test case
+2025-06-24 15:35:14.386 DEBUG testcase.Logout                          - 1: click(findTestObject("Object Repository/CURA Healthcare Service/Logout/i_CURA Healthcare_fa fa-bars"))
+2025-06-24 15:35:14.386 DEBUG c.k.k.core.testobject.ObjectRepository   - Finding Test Object 'Object Repository/CURA Healthcare Service/Logout/i_CURA Healthcare_fa fa-bars'
+2025-06-24 15:35:14.391 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking object
+2025-06-24 15:35:14.391 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:14.391 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-24 15:35:14.391 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:14.391 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Logout/i_CURA Healthcare_fa fa-bars' located by 'By.xpath: //a[@id='menu-toggle']/i' in '30' second(s)
+2025-06-24 15:35:14.391 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:35:14.630 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Logout/i_CURA Healthcare_fa fa-bars' located by 'By.xpath: //a[@id='menu-toggle']/i' in '30' second(s)
+2025-06-24 15:35:14.630 DEBUG c.k.k.c.w.keyword.builtin.ClickKeyword   - Clicking on object: 'Object Repository/CURA Healthcare Service/Logout/i_CURA Healthcare_fa fa-bars'
+2025-06-24 15:35:14.665 DEBUG c.k.k.c.w.keyword.builtin.ClickKeyword   - ✓ Object: 'Object Repository/CURA Healthcare Service/Logout/i_CURA Healthcare_fa fa-bars' is clicked on
+2025-06-24 15:35:14.666 DEBUG testcase.Logout                          - 2: click(findTestObject("Object Repository/CURA Healthcare Service/Logout/a_Logout"))
+2025-06-24 15:35:14.666 DEBUG c.k.k.core.testobject.ObjectRepository   - Finding Test Object 'Object Repository/CURA Healthcare Service/Logout/a_Logout'
+2025-06-24 15:35:14.670 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking object
+2025-06-24 15:35:14.671 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:14.671 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-24 15:35:14.671 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:14.671 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Logout/a_Logout' located by 'By.xpath: (//a[@onclick="$('#menu-close').click();"])[5]' in '30' second(s)
+2025-06-24 15:35:14.671 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:35:14.895 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Logout/a_Logout' located by 'By.xpath: (//a[@onclick="$('#menu-close').click();"])[5]' in '30' second(s)
+2025-06-24 15:35:14.896 DEBUG c.k.k.c.w.keyword.builtin.ClickKeyword   - Clicking on object: 'Object Repository/CURA Healthcare Service/Logout/a_Logout'
+2025-06-24 15:35:15.255 DEBUG c.k.k.c.w.keyword.builtin.ClickKeyword   - ✓ Object: 'Object Repository/CURA Healthcare Service/Logout/a_Logout' is clicked on
+2025-06-24 15:35:15.257 DEBUG testcase.Logout                          - 3: navigateToUrl(G_MainURL)
+2025-06-24 15:35:15.261 DEBUG c.k.k.c.w.k.b.NavigateToUrlKeyword       - Checking url
+2025-06-24 15:35:15.262 DEBUG c.k.k.c.w.k.b.NavigateToUrlKeyword       - Navigating to 'https://katalon-demo-cura.herokuapp.com/'
+2025-06-24 15:35:15.441 DEBUG c.k.k.c.w.k.b.NavigateToUrlKeyword       - ✓ Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+2025-06-24 15:35:15.442 DEBUG testcase.Logout                          - 4: verifyElementText(findTestObject("Object Repository/CURA Healthcare Service/Home Page/h1_CURA Healthcare Service"), "CURA Healthcare Service")
+2025-06-24 15:35:15.443 DEBUG c.k.k.core.testobject.ObjectRepository   - Finding Test Object 'Object Repository/CURA Healthcare Service/Home Page/h1_CURA Healthcare Service'
+2025-06-24 15:35:15.449 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking object
+2025-06-24 15:35:15.449 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-24 15:35:15.449 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:15.449 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Home Page/h1_CURA Healthcare Service' located by 'By.xpath: //header[@id='top']/div/h1' in '30' second(s)
+2025-06-24 15:35:15.450 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:35:15.890 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Home Page/h1_CURA Healthcare Service' located by 'By.xpath: //header[@id='top']/div/h1' in '30' second(s)
+2025-06-24 15:35:15.897 DEBUG c.k.k.c.w.k.b.VerifyElementTextKeyword   - ✓ Actual text and expected text of test object 'Object Repository/CURA Healthcare Service/Home Page/h1_CURA Healthcare Service' are matched.
+2025-06-24 15:35:15.897 TRACE c.k.katalon.core.main.TestCaseExecutor   - END null: verifyElementText(findTestObject("Object Repository/CURA Healthcare Service/Home Page/h1_CURA Healthcare Service"), "CURA Healthcare Service")
+2025-06-24 15:35:15.898 DEBUG c.k.katalon.core.main.TestCaseExecutor   - ✓ Test Cases/Reusable Modules/Logout
+2025-06-24 15:35:15.898 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Reusable Modules/Logout
+2025-06-24 15:35:15.898 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-24 15:35:15.898 DEBUG c.k.k.c.k.builtin.CallTestCaseKeyword    - ✓ Call Test Case 'Test Cases/Reusable Modules/Logout' successfully
+2025-06-24 15:35:15.898 TRACE c.k.katalon.core.main.TestCaseExecutor   - END null: callTestCase(findTestCase("Reusable Modules/Logout"), [:], STOP_ON_FAILURE)
+2025-06-24 15:35:15.898 DEBUG c.k.katalon.core.main.TestCaseExecutor   - ✓ Test Cases/Week 1 - Kickstart Test Automation/Reserve A Medical Appointment
+2025-06-24 15:35:17.920 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Week 1 - Kickstart Test Automation/Reserve A Medical Appointment
+2025-06-24 15:35:17.922 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-24 15:35:17.922 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Week 2 - Keyword Driven Test/Make An Appointment - Manually
+2025-06-24 15:35:17.939 DEBUG c.k.katalon.core.main.TestCaseExecutor   - Evaluating variables for test case
+2025-06-24 15:35:18.023 DEBUG t.Make An Appointment - Manually         - 1: Auth.Login(G_Cura_UserName, G_Cura_Password)
+2025-06-24 15:35:18.028 DEBUG c.k.k.c.w.k.builtin.OpenBrowserKeyword   - Opening browser
+2025-06-24 15:35:18.029 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-06-24 15:35:18.311 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-06-24 15:35:18.312 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Use managed Chrome browser & driver
+2025-06-24 15:35:18.312 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking and download if needed Chrome browser and driver for Chrome for Testing version latest (This may take a while in case of downloading needed)
+2025-06-24 15:35:18.502 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking Chrome browser and driver completed in 189 ms
+2025-06-24 15:35:18.502 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome driver path: C:\Users\user\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-06-24 15:35:18.502 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome browser path: C:\Users\user\.cache\selenium\chrome\win64\137.0.7151.119\chrome.exe
+2025-06-24 15:35:18.502 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jun 24, 2025 3:35:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 24, 2025 3:35:19 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.119. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-24 15:35:19.208 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 305a512b19443933dd9d10a34c2d9a40
+2025-06-24 15:35:19.209 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.119
+2025-06-24 15:35:19.209 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-06-24 15:35:19.209 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-24 15:35:19.210 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-24 15:35:19.221 DEBUG c.k.k.c.w.k.builtin.OpenBrowserKeyword   - ✓ Browser is opened with url: ''
+2025-06-24 15:35:19.226 DEBUG c.k.k.c.w.k.b.NavigateToUrlKeyword       - Checking url
+2025-06-24 15:35:19.227 DEBUG c.k.k.c.w.k.b.NavigateToUrlKeyword       - Navigating to 'https://katalon-demo-cura.herokuapp.com/'
+2025-06-24 15:35:20.945 DEBUG c.k.k.c.w.k.b.NavigateToUrlKeyword       - ✓ Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+2025-06-24 15:35:20.946 DEBUG c.k.k.core.testobject.ObjectRepository   - Finding Test Object 'Object Repository/CURA Healthcare Service/Home Page/a_Make Appointment'
+2025-06-24 15:35:20.954 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking object
+2025-06-24 15:35:20.954 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:20.954 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-24 15:35:20.955 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:20.955 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Home Page/a_Make Appointment' located by 'By.xpath: //a[@id='btn-make-appointment']' in '30' second(s)
+2025-06-24 15:35:20.955 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:35:21.212 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Home Page/a_Make Appointment' located by 'By.xpath: //a[@id='btn-make-appointment']' in '30' second(s)
+2025-06-24 15:35:21.212 DEBUG c.k.k.c.w.keyword.builtin.ClickKeyword   - Clicking on object: 'Object Repository/CURA Healthcare Service/Home Page/a_Make Appointment'
+2025-06-24 15:35:21.495 DEBUG c.k.k.c.w.keyword.builtin.ClickKeyword   - ✓ Object: 'Object Repository/CURA Healthcare Service/Home Page/a_Make Appointment' is clicked on
+2025-06-24 15:35:21.495 DEBUG c.k.k.core.testobject.ObjectRepository   - Finding Test Object 'Object Repository/CURA Healthcare Service/Login/input_Username_username'
+2025-06-24 15:35:21.505 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking object
+2025-06-24 15:35:21.506 DEBUG c.k.k.c.w.k.builtin.SetTextKeyword       - Checking text
+2025-06-24 15:35:21.506 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-24 15:35:21.506 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:21.506 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Login/input_Username_username' located by 'By.xpath: //input[@id='txt-username']' in '30' second(s)
+2025-06-24 15:35:21.507 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:35:21.852 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Login/input_Username_username' located by 'By.xpath: //input[@id='txt-username']' in '30' second(s)
+2025-06-24 15:35:21.853 DEBUG c.k.k.c.w.k.builtin.SetTextKeyword       - Clearing text of object 'Object Repository/CURA Healthcare Service/Login/input_Username_username'
+2025-06-24 15:35:21.874 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-24 15:35:21.875 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:21.875 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Login/input_Username_username' located by 'By.xpath: //input[@id='txt-username']' in '30' second(s)
+2025-06-24 15:35:21.875 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:35:22.107 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Login/input_Username_username' located by 'By.xpath: //input[@id='txt-username']' in '30' second(s)
+2025-06-24 15:35:22.113 DEBUG c.k.k.c.w.k.builtin.SetTextKeyword       - Setting text of object 'Object Repository/CURA Healthcare Service/Login/input_Username_username' to value 'John Doe'
+2025-06-24 15:35:22.156 DEBUG c.k.k.c.w.k.builtin.SetTextKeyword       - ✓ Text 'John Doe' is set on object 'Object Repository/CURA Healthcare Service/Login/input_Username_username'
+2025-06-24 15:35:22.157 DEBUG c.k.k.core.testobject.ObjectRepository   - Finding Test Object 'Object Repository/CURA Healthcare Service/Login/input_Password_password'
+2025-06-24 15:35:22.159 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - Auth.EncryptText is PASSED
+2025-06-24 15:35:22.162 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking object
+2025-06-24 15:35:22.162 DEBUG c.k.k.c.w.k.b.SetEncryptedTextKeyword    - Checking text
+2025-06-24 15:35:22.162 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-24 15:35:22.162 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:22.162 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Login/input_Password_password' located by 'By.xpath: //input[@id='txt-password']' in '30' second(s)
+2025-06-24 15:35:22.162 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:35:22.389 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Login/input_Password_password' located by 'By.xpath: //input[@id='txt-password']' in '30' second(s)
+2025-06-24 15:35:22.391 DEBUG c.k.k.c.w.k.b.SetEncryptedTextKeyword    - Clearing text of object 'Object Repository/CURA Healthcare Service/Login/input_Password_password'
+2025-06-24 15:35:22.406 DEBUG c.k.k.c.w.k.b.SetEncryptedTextKeyword    - Setting  text of object 'Object Repository/CURA Healthcare Service/Login/input_Password_password' to value ******
+2025-06-24 15:35:22.458 DEBUG c.k.k.c.w.k.b.SetEncryptedTextKeyword    - ✓ Text ****** has been set on object 'Object Repository/CURA Healthcare Service/Login/input_Password_password'
+2025-06-24 15:35:22.459 DEBUG c.k.k.core.testobject.ObjectRepository   - Finding Test Object 'Object Repository/CURA Healthcare Service/Login/button_Login'
+2025-06-24 15:35:22.465 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking object
+2025-06-24 15:35:22.467 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:22.467 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-24 15:35:22.467 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:22.467 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Login/button_Login' located by 'By.xpath: //button[@id='btn-login']' in '30' second(s)
+2025-06-24 15:35:22.467 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:35:22.699 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Login/button_Login' located by 'By.xpath: //button[@id='btn-login']' in '30' second(s)
+2025-06-24 15:35:22.700 DEBUG c.k.k.c.w.keyword.builtin.ClickKeyword   - Clicking on object: 'Object Repository/CURA Healthcare Service/Login/button_Login'
+2025-06-24 15:35:23.018 DEBUG c.k.k.c.w.keyword.builtin.ClickKeyword   - ✓ Object: 'Object Repository/CURA Healthcare Service/Login/button_Login' is clicked on
+2025-06-24 15:35:23.018 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - Auth.Login is PASSED
+2025-06-24 15:35:23.020 DEBUG t.Make An Appointment - Manually         - 2: for (def n : (0..2))
+2025-06-24 15:35:23.031 DEBUG t.Make An Appointment - Manually         - 1: selectOptionByIndex(findTestObject("CURA Healthcare Service/Make Appointment/select_Tokyo CURA Healthcare Center        _5b4107"), "1", STOP_ON_FAILURE)
+2025-06-24 15:35:23.033 DEBUG c.k.k.core.testobject.ObjectRepository   - Finding Test Object 'Object Repository/CURA Healthcare Service/Make Appointment/select_Tokyo CURA Healthcare Center        _5b4107'
+2025-06-24 15:35:23.044 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking object
+2025-06-24 15:35:23.045 DEBUG c.k.k.c.w.k.b.SelectOptionByIndexKeyword - Checking index range
+2025-06-24 15:35:23.045 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Converting range parameter '1' to index array
+2025-06-24 15:35:23.045 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Range parameter '1' is converted to index array [1]
+2025-06-24 15:35:23.045 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-24 15:35:23.045 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:23.046 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Make Appointment/select_Tokyo CURA Healthcare Center        _5b4107' located by 'By.xpath: //select[@id='combo_facility']' in '30' second(s)
+2025-06-24 15:35:23.046 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:35:23.515 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Make Appointment/select_Tokyo CURA Healthcare Center        _5b4107' located by 'By.xpath: //select[@id='combo_facility']' in '30' second(s)
+2025-06-24 15:35:23.524 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Checking index parameters
+2025-06-24 15:35:23.525 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:35:23.747 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Selecting options on object 'Object Repository/CURA Healthcare Service/Make Appointment/select_Tokyo CURA Healthcare Center        _5b4107' with index in [1]
+2025-06-24 15:35:23.753 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:35:24.011 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Option with index 1 is selected
+2025-06-24 15:35:24.011 DEBUG c.k.k.c.w.k.b.SelectOptionByIndexKeyword - ✓ All options with index in [1] are selected on object 'Object Repository/CURA Healthcare Service/Make Appointment/select_Tokyo CURA Healthcare Center        _5b4107'
+2025-06-24 15:35:24.012 DEBUG t.Make An Appointment - Manually         - 2: check(findTestObject("CURA Healthcare Service/Make Appointment/input_Apply for hospital readmission_hospit_63901f"))
+2025-06-24 15:35:24.013 DEBUG c.k.k.core.testobject.ObjectRepository   - Finding Test Object 'Object Repository/CURA Healthcare Service/Make Appointment/input_Apply for hospital readmission_hospit_63901f'
+2025-06-24 15:35:24.022 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking object
+2025-06-24 15:35:24.023 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-24 15:35:24.023 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:24.023 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Make Appointment/input_Apply for hospital readmission_hospit_63901f' located by 'By.xpath: //input[@id='chk_hospotal_readmission']' in '30' second(s)
+2025-06-24 15:35:24.023 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:35:24.252 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Make Appointment/input_Apply for hospital readmission_hospit_63901f' located by 'By.xpath: //input[@id='chk_hospotal_readmission']' in '30' second(s)
+2025-06-24 15:35:24.252 DEBUG c.k.k.c.w.keyword.builtin.CheckKeyword   - Checking on bject 'Object Repository/CURA Healthcare Service/Make Appointment/input_Apply for hospital readmission_hospit_63901f'
+2025-06-24 15:35:24.293 DEBUG c.k.k.c.w.keyword.builtin.CheckKeyword   - ✓ Object 'Object Repository/CURA Healthcare Service/Make Appointment/input_Apply for hospital readmission_hospit_63901f' is checked
+2025-06-24 15:35:24.295 DEBUG t.Make An Appointment - Manually         - 3: if (n == 0)
+2025-06-24 15:35:24.297 DEBUG t.Make An Appointment - Manually         - 1: click(findTestObject("CURA Healthcare Service/Make Appointment/input_Medicare_programs"))
+2025-06-24 15:35:24.297 DEBUG c.k.k.core.testobject.ObjectRepository   - Finding Test Object 'Object Repository/CURA Healthcare Service/Make Appointment/input_Medicare_programs'
+2025-06-24 15:35:24.302 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking object
+2025-06-24 15:35:24.302 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:24.302 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-24 15:35:24.302 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:24.303 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Make Appointment/input_Medicare_programs' located by 'By.xpath: //input[@id='radio_program_medicare']' in '30' second(s)
+2025-06-24 15:35:24.303 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:35:24.523 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Make Appointment/input_Medicare_programs' located by 'By.xpath: //input[@id='radio_program_medicare']' in '30' second(s)
+2025-06-24 15:35:24.523 DEBUG c.k.k.c.w.keyword.builtin.ClickKeyword   - Clicking on object: 'Object Repository/CURA Healthcare Service/Make Appointment/input_Medicare_programs'
+2025-06-24 15:35:24.557 DEBUG c.k.k.c.w.keyword.builtin.ClickKeyword   - ✓ Object: 'Object Repository/CURA Healthcare Service/Make Appointment/input_Medicare_programs' is clicked on
+2025-06-24 15:35:24.559 DEBUG t.Make An Appointment - Manually         - 6: setText(findTestObject("CURA Healthcare Service/Make Appointment/textarea_Comment_comment"), "This is a test comment")
+2025-06-24 15:35:24.560 DEBUG c.k.k.core.testobject.ObjectRepository   - Finding Test Object 'Object Repository/CURA Healthcare Service/Make Appointment/textarea_Comment_comment'
+2025-06-24 15:35:24.564 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking object
+2025-06-24 15:35:24.564 DEBUG c.k.k.c.w.k.builtin.SetTextKeyword       - Checking text
+2025-06-24 15:35:24.564 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-24 15:35:24.564 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:24.564 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Make Appointment/textarea_Comment_comment' located by 'By.xpath: //textarea[@id='txt_comment']' in '30' second(s)
+2025-06-24 15:35:24.565 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:35:24.799 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Make Appointment/textarea_Comment_comment' located by 'By.xpath: //textarea[@id='txt_comment']' in '30' second(s)
+2025-06-24 15:35:24.799 DEBUG c.k.k.c.w.k.builtin.SetTextKeyword       - Clearing text of object 'Object Repository/CURA Healthcare Service/Make Appointment/textarea_Comment_comment'
+2025-06-24 15:35:24.813 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-24 15:35:24.814 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:24.814 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Make Appointment/textarea_Comment_comment' located by 'By.xpath: //textarea[@id='txt_comment']' in '30' second(s)
+2025-06-24 15:35:24.814 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:35:25.049 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Make Appointment/textarea_Comment_comment' located by 'By.xpath: //textarea[@id='txt_comment']' in '30' second(s)
+2025-06-24 15:35:25.055 DEBUG c.k.k.c.w.k.builtin.SetTextKeyword       - Setting text of object 'Object Repository/CURA Healthcare Service/Make Appointment/textarea_Comment_comment' to value 'This is a test comment'
+2025-06-24 15:35:25.112 DEBUG c.k.k.c.w.k.builtin.SetTextKeyword       - ✓ Text 'This is a test comment' is set on object 'Object Repository/CURA Healthcare Service/Make Appointment/textarea_Comment_comment'
+2025-06-24 15:35:25.113 DEBUG t.Make An Appointment - Manually         - 7: setText(findTestObject("CURA Healthcare Service/Make Appointment/input_Visit Date (Required)_visit_date"), "25/7/2025")
+2025-06-24 15:35:25.115 DEBUG c.k.k.core.testobject.ObjectRepository   - Finding Test Object 'Object Repository/CURA Healthcare Service/Make Appointment/input_Visit Date (Required)_visit_date'
+2025-06-24 15:35:25.119 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking object
+2025-06-24 15:35:25.119 DEBUG c.k.k.c.w.k.builtin.SetTextKeyword       - Checking text
+2025-06-24 15:35:25.119 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-24 15:35:25.119 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:25.119 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Make Appointment/input_Visit Date (Required)_visit_date' located by 'By.xpath: //input[@id='txt_visit_date']' in '30' second(s)
+2025-06-24 15:35:25.119 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:35:25.353 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Make Appointment/input_Visit Date (Required)_visit_date' located by 'By.xpath: //input[@id='txt_visit_date']' in '30' second(s)
+2025-06-24 15:35:25.354 DEBUG c.k.k.c.w.k.builtin.SetTextKeyword       - Clearing text of object 'Object Repository/CURA Healthcare Service/Make Appointment/input_Visit Date (Required)_visit_date'
+2025-06-24 15:35:25.371 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-24 15:35:25.371 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:25.371 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Make Appointment/input_Visit Date (Required)_visit_date' located by 'By.xpath: //input[@id='txt_visit_date']' in '30' second(s)
+2025-06-24 15:35:25.371 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:35:25.602 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Make Appointment/input_Visit Date (Required)_visit_date' located by 'By.xpath: //input[@id='txt_visit_date']' in '30' second(s)
+2025-06-24 15:35:25.607 DEBUG c.k.k.c.w.k.builtin.SetTextKeyword       - Setting text of object 'Object Repository/CURA Healthcare Service/Make Appointment/input_Visit Date (Required)_visit_date' to value '25/7/2025'
+2025-06-24 15:35:25.666 DEBUG c.k.k.c.w.k.builtin.SetTextKeyword       - ✓ Text '25/7/2025' is set on object 'Object Repository/CURA Healthcare Service/Make Appointment/input_Visit Date (Required)_visit_date'
+2025-06-24 15:35:25.668 DEBUG t.Make An Appointment - Manually         - 8: click(findTestObject("CURA Healthcare Service/Make Appointment/button_Book Appointment"))
+2025-06-24 15:35:25.668 DEBUG c.k.k.core.testobject.ObjectRepository   - Finding Test Object 'Object Repository/CURA Healthcare Service/Make Appointment/button_Book Appointment'
+2025-06-24 15:35:25.673 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking object
+2025-06-24 15:35:25.673 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:25.673 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-24 15:35:25.674 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:25.674 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Make Appointment/button_Book Appointment' located by 'By.xpath: //button[@id='btn-book-appointment']' in '30' second(s)
+2025-06-24 15:35:25.674 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:35:26.123 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Make Appointment/button_Book Appointment' located by 'By.xpath: //button[@id='btn-book-appointment']' in '30' second(s)
+2025-06-24 15:35:26.123 DEBUG c.k.k.c.w.keyword.builtin.ClickKeyword   - Clicking on object: 'Object Repository/CURA Healthcare Service/Make Appointment/button_Book Appointment'
+2025-06-24 15:35:26.309 DEBUG c.k.k.c.w.keyword.builtin.ClickKeyword   - ✓ Object: 'Object Repository/CURA Healthcare Service/Make Appointment/button_Book Appointment' is clicked on
+2025-06-24 15:35:26.311 DEBUG t.Make An Appointment - Manually         - 9: verifyElementText(findTestObject("CURA Healthcare Service/Make Appointment/h2_Appointment Confirmation"), "Appointment Confirmation")
+2025-06-24 15:35:26.311 DEBUG c.k.k.core.testobject.ObjectRepository   - Finding Test Object 'Object Repository/CURA Healthcare Service/Make Appointment/h2_Appointment Confirmation'
+2025-06-24 15:35:26.316 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking object
+2025-06-24 15:35:26.317 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-24 15:35:26.317 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:26.317 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Make Appointment/h2_Appointment Confirmation' located by 'By.xpath: //section[@id='summary']/div/div/div/h2' in '30' second(s)
+2025-06-24 15:35:26.317 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:35:26.805 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Make Appointment/h2_Appointment Confirmation' located by 'By.xpath: //section[@id='summary']/div/div/div/h2' in '30' second(s)
+2025-06-24 15:35:26.815 DEBUG c.k.k.c.w.k.b.VerifyElementTextKeyword   - ✓ Actual text and expected text of test object 'Object Repository/CURA Healthcare Service/Make Appointment/h2_Appointment Confirmation' are matched.
+2025-06-24 15:35:26.817 DEBUG t.Make An Appointment - Manually         - 10: click(findTestObject("CURA Healthcare Service/Make Appointment/a_Go to Homepage"))
+2025-06-24 15:35:26.817 DEBUG c.k.k.core.testobject.ObjectRepository   - Finding Test Object 'Object Repository/CURA Healthcare Service/Make Appointment/a_Go to Homepage'
+2025-06-24 15:35:26.822 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking object
+2025-06-24 15:35:26.822 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:26.822 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-24 15:35:26.823 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:26.823 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Make Appointment/a_Go to Homepage' located by 'By.xpath: //section[@id='summary']/div/div/div[7]/p/a' in '30' second(s)
+2025-06-24 15:35:26.823 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:35:27.060 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Make Appointment/a_Go to Homepage' located by 'By.xpath: //section[@id='summary']/div/div/div[7]/p/a' in '30' second(s)
+2025-06-24 15:35:27.061 DEBUG c.k.k.c.w.keyword.builtin.ClickKeyword   - Clicking on object: 'Object Repository/CURA Healthcare Service/Make Appointment/a_Go to Homepage'
+2025-06-24 15:35:27.283 DEBUG c.k.k.c.w.keyword.builtin.ClickKeyword   - ✓ Object: 'Object Repository/CURA Healthcare Service/Make Appointment/a_Go to Homepage' is clicked on
+2025-06-24 15:35:27.286 DEBUG t.Make An Appointment - Manually         - 11: if (n <= 1)
+2025-06-24 15:35:27.287 DEBUG t.Make An Appointment - Manually         - 1: click(findTestObject("CURA Healthcare Service/Home Page/a_btn-make-appointment"))
+2025-06-24 15:35:27.287 DEBUG c.k.k.core.testobject.ObjectRepository   - Finding Test Object 'Object Repository/CURA Healthcare Service/Home Page/a_btn-make-appointment'
+2025-06-24 15:35:27.293 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking object
+2025-06-24 15:35:27.294 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:27.294 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-24 15:35:27.294 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:27.294 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Home Page/a_btn-make-appointment' located by 'By.xpath: //*[@id = 'btn-make-appointment']' in '30' second(s)
+2025-06-24 15:35:27.294 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:35:27.739 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Home Page/a_btn-make-appointment' located by 'By.xpath: //*[@id = 'btn-make-appointment']' in '30' second(s)
+2025-06-24 15:35:27.740 DEBUG c.k.k.c.w.keyword.builtin.ClickKeyword   - Clicking on object: 'Object Repository/CURA Healthcare Service/Home Page/a_btn-make-appointment'
+2025-06-24 15:35:27.771 DEBUG c.k.k.c.w.keyword.builtin.ClickKeyword   - ✓ Object: 'Object Repository/CURA Healthcare Service/Home Page/a_btn-make-appointment' is clicked on
+2025-06-24 15:35:27.772 DEBUG t.Make An Appointment - Manually         - 1: selectOptionByIndex(findTestObject("CURA Healthcare Service/Make Appointment/select_Tokyo CURA Healthcare Center        _5b4107"), "1", STOP_ON_FAILURE)
+2025-06-24 15:35:27.772 DEBUG c.k.k.core.testobject.ObjectRepository   - Finding Test Object 'Object Repository/CURA Healthcare Service/Make Appointment/select_Tokyo CURA Healthcare Center        _5b4107'
+2025-06-24 15:35:27.776 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking object
+2025-06-24 15:35:27.777 DEBUG c.k.k.c.w.k.b.SelectOptionByIndexKeyword - Checking index range
+2025-06-24 15:35:27.777 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Converting range parameter '1' to index array
+2025-06-24 15:35:27.777 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Range parameter '1' is converted to index array [1]
+2025-06-24 15:35:27.777 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-24 15:35:27.777 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:27.777 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Make Appointment/select_Tokyo CURA Healthcare Center        _5b4107' located by 'By.xpath: //select[@id='combo_facility']' in '30' second(s)
+2025-06-24 15:35:27.778 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:35:28.011 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Make Appointment/select_Tokyo CURA Healthcare Center        _5b4107' located by 'By.xpath: //select[@id='combo_facility']' in '30' second(s)
+2025-06-24 15:35:28.021 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Checking index parameters
+2025-06-24 15:35:28.021 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:35:28.257 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Selecting options on object 'Object Repository/CURA Healthcare Service/Make Appointment/select_Tokyo CURA Healthcare Center        _5b4107' with index in [1]
+2025-06-24 15:35:28.263 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:35:28.741 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Option with index 1 is selected
+2025-06-24 15:35:28.741 DEBUG c.k.k.c.w.k.b.SelectOptionByIndexKeyword - ✓ All options with index in [1] are selected on object 'Object Repository/CURA Healthcare Service/Make Appointment/select_Tokyo CURA Healthcare Center        _5b4107'
+2025-06-24 15:35:28.742 DEBUG t.Make An Appointment - Manually         - 2: check(findTestObject("CURA Healthcare Service/Make Appointment/input_Apply for hospital readmission_hospit_63901f"))
+2025-06-24 15:35:28.743 DEBUG c.k.k.core.testobject.ObjectRepository   - Finding Test Object 'Object Repository/CURA Healthcare Service/Make Appointment/input_Apply for hospital readmission_hospit_63901f'
+2025-06-24 15:35:28.746 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking object
+2025-06-24 15:35:28.747 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-24 15:35:28.747 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:28.747 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Make Appointment/input_Apply for hospital readmission_hospit_63901f' located by 'By.xpath: //input[@id='chk_hospotal_readmission']' in '30' second(s)
+2025-06-24 15:35:28.747 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:35:28.975 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Make Appointment/input_Apply for hospital readmission_hospit_63901f' located by 'By.xpath: //input[@id='chk_hospotal_readmission']' in '30' second(s)
+2025-06-24 15:35:28.976 DEBUG c.k.k.c.w.keyword.builtin.CheckKeyword   - Checking on bject 'Object Repository/CURA Healthcare Service/Make Appointment/input_Apply for hospital readmission_hospit_63901f'
+2025-06-24 15:35:29.013 DEBUG c.k.k.c.w.keyword.builtin.CheckKeyword   - ✓ Object 'Object Repository/CURA Healthcare Service/Make Appointment/input_Apply for hospital readmission_hospit_63901f' is checked
+2025-06-24 15:35:29.014 DEBUG t.Make An Appointment - Manually         - 3: if (n == 0)
+2025-06-24 15:35:29.015 DEBUG t.Make An Appointment - Manually         - 4: else if (n == 1)
+2025-06-24 15:35:29.016 DEBUG t.Make An Appointment - Manually         - 1: click(findTestObject("CURA Healthcare Service/Make Appointment/input_Medicaid_programs"))
+2025-06-24 15:35:29.016 DEBUG c.k.k.core.testobject.ObjectRepository   - Finding Test Object 'Object Repository/CURA Healthcare Service/Make Appointment/input_Medicaid_programs'
+2025-06-24 15:35:29.020 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking object
+2025-06-24 15:35:29.021 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:29.021 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-24 15:35:29.021 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:29.021 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Make Appointment/input_Medicaid_programs' located by 'By.xpath: //input[@id='radio_program_medicaid']' in '30' second(s)
+2025-06-24 15:35:29.021 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:35:29.245 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Make Appointment/input_Medicaid_programs' located by 'By.xpath: //input[@id='radio_program_medicaid']' in '30' second(s)
+2025-06-24 15:35:29.245 DEBUG c.k.k.c.w.keyword.builtin.ClickKeyword   - Clicking on object: 'Object Repository/CURA Healthcare Service/Make Appointment/input_Medicaid_programs'
+2025-06-24 15:35:29.302 DEBUG c.k.k.c.w.keyword.builtin.ClickKeyword   - ✓ Object: 'Object Repository/CURA Healthcare Service/Make Appointment/input_Medicaid_programs' is clicked on
+2025-06-24 15:35:29.303 DEBUG t.Make An Appointment - Manually         - 6: setText(findTestObject("CURA Healthcare Service/Make Appointment/textarea_Comment_comment"), "This is a test comment")
+2025-06-24 15:35:29.304 DEBUG c.k.k.core.testobject.ObjectRepository   - Finding Test Object 'Object Repository/CURA Healthcare Service/Make Appointment/textarea_Comment_comment'
+2025-06-24 15:35:29.308 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking object
+2025-06-24 15:35:29.308 DEBUG c.k.k.c.w.k.builtin.SetTextKeyword       - Checking text
+2025-06-24 15:35:29.308 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-24 15:35:29.308 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:29.309 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Make Appointment/textarea_Comment_comment' located by 'By.xpath: //textarea[@id='txt_comment']' in '30' second(s)
+2025-06-24 15:35:29.309 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:35:29.536 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Make Appointment/textarea_Comment_comment' located by 'By.xpath: //textarea[@id='txt_comment']' in '30' second(s)
+2025-06-24 15:35:29.536 DEBUG c.k.k.c.w.k.builtin.SetTextKeyword       - Clearing text of object 'Object Repository/CURA Healthcare Service/Make Appointment/textarea_Comment_comment'
+2025-06-24 15:35:29.548 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-24 15:35:29.549 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:29.549 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Make Appointment/textarea_Comment_comment' located by 'By.xpath: //textarea[@id='txt_comment']' in '30' second(s)
+2025-06-24 15:35:29.549 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:35:29.767 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Make Appointment/textarea_Comment_comment' located by 'By.xpath: //textarea[@id='txt_comment']' in '30' second(s)
+2025-06-24 15:35:29.772 DEBUG c.k.k.c.w.k.builtin.SetTextKeyword       - Setting text of object 'Object Repository/CURA Healthcare Service/Make Appointment/textarea_Comment_comment' to value 'This is a test comment'
+2025-06-24 15:35:29.834 DEBUG c.k.k.c.w.k.builtin.SetTextKeyword       - ✓ Text 'This is a test comment' is set on object 'Object Repository/CURA Healthcare Service/Make Appointment/textarea_Comment_comment'
+2025-06-24 15:35:29.835 DEBUG t.Make An Appointment - Manually         - 7: setText(findTestObject("CURA Healthcare Service/Make Appointment/input_Visit Date (Required)_visit_date"), "25/7/2025")
+2025-06-24 15:35:29.836 DEBUG c.k.k.core.testobject.ObjectRepository   - Finding Test Object 'Object Repository/CURA Healthcare Service/Make Appointment/input_Visit Date (Required)_visit_date'
+2025-06-24 15:35:29.840 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking object
+2025-06-24 15:35:29.840 DEBUG c.k.k.c.w.k.builtin.SetTextKeyword       - Checking text
+2025-06-24 15:35:29.841 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-24 15:35:29.841 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:29.841 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Make Appointment/input_Visit Date (Required)_visit_date' located by 'By.xpath: //input[@id='txt_visit_date']' in '30' second(s)
+2025-06-24 15:35:29.841 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:35:30.071 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Make Appointment/input_Visit Date (Required)_visit_date' located by 'By.xpath: //input[@id='txt_visit_date']' in '30' second(s)
+2025-06-24 15:35:30.072 DEBUG c.k.k.c.w.k.builtin.SetTextKeyword       - Clearing text of object 'Object Repository/CURA Healthcare Service/Make Appointment/input_Visit Date (Required)_visit_date'
+2025-06-24 15:35:30.087 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-24 15:35:30.087 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:30.088 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Make Appointment/input_Visit Date (Required)_visit_date' located by 'By.xpath: //input[@id='txt_visit_date']' in '30' second(s)
+2025-06-24 15:35:30.088 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:35:30.315 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Make Appointment/input_Visit Date (Required)_visit_date' located by 'By.xpath: //input[@id='txt_visit_date']' in '30' second(s)
+2025-06-24 15:35:30.321 DEBUG c.k.k.c.w.k.builtin.SetTextKeyword       - Setting text of object 'Object Repository/CURA Healthcare Service/Make Appointment/input_Visit Date (Required)_visit_date' to value '25/7/2025'
+2025-06-24 15:35:30.377 DEBUG c.k.k.c.w.k.builtin.SetTextKeyword       - ✓ Text '25/7/2025' is set on object 'Object Repository/CURA Healthcare Service/Make Appointment/input_Visit Date (Required)_visit_date'
+2025-06-24 15:35:30.379 DEBUG t.Make An Appointment - Manually         - 8: click(findTestObject("CURA Healthcare Service/Make Appointment/button_Book Appointment"))
+2025-06-24 15:35:30.379 DEBUG c.k.k.core.testobject.ObjectRepository   - Finding Test Object 'Object Repository/CURA Healthcare Service/Make Appointment/button_Book Appointment'
+2025-06-24 15:35:30.384 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking object
+2025-06-24 15:35:30.384 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:30.384 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-24 15:35:30.384 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:30.384 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Make Appointment/button_Book Appointment' located by 'By.xpath: //button[@id='btn-book-appointment']' in '30' second(s)
+2025-06-24 15:35:30.385 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:35:30.844 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Make Appointment/button_Book Appointment' located by 'By.xpath: //button[@id='btn-book-appointment']' in '30' second(s)
+2025-06-24 15:35:30.844 DEBUG c.k.k.c.w.keyword.builtin.ClickKeyword   - Clicking on object: 'Object Repository/CURA Healthcare Service/Make Appointment/button_Book Appointment'
+2025-06-24 15:35:31.019 DEBUG c.k.k.c.w.keyword.builtin.ClickKeyword   - ✓ Object: 'Object Repository/CURA Healthcare Service/Make Appointment/button_Book Appointment' is clicked on
+2025-06-24 15:35:31.021 DEBUG t.Make An Appointment - Manually         - 9: verifyElementText(findTestObject("CURA Healthcare Service/Make Appointment/h2_Appointment Confirmation"), "Appointment Confirmation")
+2025-06-24 15:35:31.022 DEBUG c.k.k.core.testobject.ObjectRepository   - Finding Test Object 'Object Repository/CURA Healthcare Service/Make Appointment/h2_Appointment Confirmation'
+2025-06-24 15:35:31.028 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking object
+2025-06-24 15:35:31.028 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-24 15:35:31.028 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:31.028 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Make Appointment/h2_Appointment Confirmation' located by 'By.xpath: //section[@id='summary']/div/div/div/h2' in '30' second(s)
+2025-06-24 15:35:31.029 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:35:31.499 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Make Appointment/h2_Appointment Confirmation' located by 'By.xpath: //section[@id='summary']/div/div/div/h2' in '30' second(s)
+2025-06-24 15:35:31.506 DEBUG c.k.k.c.w.k.b.VerifyElementTextKeyword   - ✓ Actual text and expected text of test object 'Object Repository/CURA Healthcare Service/Make Appointment/h2_Appointment Confirmation' are matched.
+2025-06-24 15:35:31.507 DEBUG t.Make An Appointment - Manually         - 10: click(findTestObject("CURA Healthcare Service/Make Appointment/a_Go to Homepage"))
+2025-06-24 15:35:31.508 DEBUG c.k.k.core.testobject.ObjectRepository   - Finding Test Object 'Object Repository/CURA Healthcare Service/Make Appointment/a_Go to Homepage'
+2025-06-24 15:35:31.511 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking object
+2025-06-24 15:35:31.511 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:31.512 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-24 15:35:31.512 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:31.512 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Make Appointment/a_Go to Homepage' located by 'By.xpath: //section[@id='summary']/div/div/div[7]/p/a' in '30' second(s)
+2025-06-24 15:35:31.512 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:35:31.736 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Make Appointment/a_Go to Homepage' located by 'By.xpath: //section[@id='summary']/div/div/div[7]/p/a' in '30' second(s)
+2025-06-24 15:35:31.736 DEBUG c.k.k.c.w.keyword.builtin.ClickKeyword   - Clicking on object: 'Object Repository/CURA Healthcare Service/Make Appointment/a_Go to Homepage'
+2025-06-24 15:35:31.965 DEBUG c.k.k.c.w.keyword.builtin.ClickKeyword   - ✓ Object: 'Object Repository/CURA Healthcare Service/Make Appointment/a_Go to Homepage' is clicked on
+2025-06-24 15:35:31.966 DEBUG t.Make An Appointment - Manually         - 11: if (n <= 1)
+2025-06-24 15:35:31.968 DEBUG t.Make An Appointment - Manually         - 1: click(findTestObject("CURA Healthcare Service/Home Page/a_btn-make-appointment"))
+2025-06-24 15:35:31.968 DEBUG c.k.k.core.testobject.ObjectRepository   - Finding Test Object 'Object Repository/CURA Healthcare Service/Home Page/a_btn-make-appointment'
+2025-06-24 15:35:31.974 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking object
+2025-06-24 15:35:31.974 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:31.975 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-24 15:35:31.975 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:31.975 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Home Page/a_btn-make-appointment' located by 'By.xpath: //*[@id = 'btn-make-appointment']' in '30' second(s)
+2025-06-24 15:35:31.975 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:35:32.421 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Home Page/a_btn-make-appointment' located by 'By.xpath: //*[@id = 'btn-make-appointment']' in '30' second(s)
+2025-06-24 15:35:32.422 DEBUG c.k.k.c.w.keyword.builtin.ClickKeyword   - Clicking on object: 'Object Repository/CURA Healthcare Service/Home Page/a_btn-make-appointment'
+2025-06-24 15:35:32.452 DEBUG c.k.k.c.w.keyword.builtin.ClickKeyword   - ✓ Object: 'Object Repository/CURA Healthcare Service/Home Page/a_btn-make-appointment' is clicked on
+2025-06-24 15:35:32.454 DEBUG t.Make An Appointment - Manually         - 1: selectOptionByIndex(findTestObject("CURA Healthcare Service/Make Appointment/select_Tokyo CURA Healthcare Center        _5b4107"), "1", STOP_ON_FAILURE)
+2025-06-24 15:35:32.454 DEBUG c.k.k.core.testobject.ObjectRepository   - Finding Test Object 'Object Repository/CURA Healthcare Service/Make Appointment/select_Tokyo CURA Healthcare Center        _5b4107'
+2025-06-24 15:35:32.458 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking object
+2025-06-24 15:35:32.458 DEBUG c.k.k.c.w.k.b.SelectOptionByIndexKeyword - Checking index range
+2025-06-24 15:35:32.458 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Converting range parameter '1' to index array
+2025-06-24 15:35:32.458 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Range parameter '1' is converted to index array [1]
+2025-06-24 15:35:32.458 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-24 15:35:32.458 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:32.459 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Make Appointment/select_Tokyo CURA Healthcare Center        _5b4107' located by 'By.xpath: //select[@id='combo_facility']' in '30' second(s)
+2025-06-24 15:35:32.459 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:35:32.692 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Make Appointment/select_Tokyo CURA Healthcare Center        _5b4107' located by 'By.xpath: //select[@id='combo_facility']' in '30' second(s)
+2025-06-24 15:35:32.701 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Checking index parameters
+2025-06-24 15:35:32.702 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:35:32.939 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Selecting options on object 'Object Repository/CURA Healthcare Service/Make Appointment/select_Tokyo CURA Healthcare Center        _5b4107' with index in [1]
+2025-06-24 15:35:32.944 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:35:33.410 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Option with index 1 is selected
+2025-06-24 15:35:33.410 DEBUG c.k.k.c.w.k.b.SelectOptionByIndexKeyword - ✓ All options with index in [1] are selected on object 'Object Repository/CURA Healthcare Service/Make Appointment/select_Tokyo CURA Healthcare Center        _5b4107'
+2025-06-24 15:35:33.412 DEBUG t.Make An Appointment - Manually         - 2: check(findTestObject("CURA Healthcare Service/Make Appointment/input_Apply for hospital readmission_hospit_63901f"))
+2025-06-24 15:35:33.412 DEBUG c.k.k.core.testobject.ObjectRepository   - Finding Test Object 'Object Repository/CURA Healthcare Service/Make Appointment/input_Apply for hospital readmission_hospit_63901f'
+2025-06-24 15:35:33.417 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking object
+2025-06-24 15:35:33.418 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-24 15:35:33.418 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:33.418 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Make Appointment/input_Apply for hospital readmission_hospit_63901f' located by 'By.xpath: //input[@id='chk_hospotal_readmission']' in '30' second(s)
+2025-06-24 15:35:33.418 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:35:33.647 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Make Appointment/input_Apply for hospital readmission_hospit_63901f' located by 'By.xpath: //input[@id='chk_hospotal_readmission']' in '30' second(s)
+2025-06-24 15:35:33.647 DEBUG c.k.k.c.w.keyword.builtin.CheckKeyword   - Checking on bject 'Object Repository/CURA Healthcare Service/Make Appointment/input_Apply for hospital readmission_hospit_63901f'
+2025-06-24 15:35:33.687 DEBUG c.k.k.c.w.keyword.builtin.CheckKeyword   - ✓ Object 'Object Repository/CURA Healthcare Service/Make Appointment/input_Apply for hospital readmission_hospit_63901f' is checked
+2025-06-24 15:35:33.688 DEBUG t.Make An Appointment - Manually         - 3: if (n == 0)
+2025-06-24 15:35:33.690 DEBUG t.Make An Appointment - Manually         - 4: else if (n == 1)
+2025-06-24 15:35:33.690 DEBUG t.Make An Appointment - Manually         - 5: else
+2025-06-24 15:35:33.691 DEBUG t.Make An Appointment - Manually         - 1: click(findTestObject("CURA Healthcare Service/Make Appointment/input_None_programs"))
+2025-06-24 15:35:33.692 DEBUG c.k.k.core.testobject.ObjectRepository   - Finding Test Object 'Object Repository/CURA Healthcare Service/Make Appointment/input_None_programs'
+2025-06-24 15:35:33.696 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking object
+2025-06-24 15:35:33.696 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:33.696 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-24 15:35:33.696 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:33.696 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Make Appointment/input_None_programs' located by 'By.xpath: //input[@id='radio_program_none']' in '30' second(s)
+2025-06-24 15:35:33.696 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:35:33.924 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Make Appointment/input_None_programs' located by 'By.xpath: //input[@id='radio_program_none']' in '30' second(s)
+2025-06-24 15:35:33.924 DEBUG c.k.k.c.w.keyword.builtin.ClickKeyword   - Clicking on object: 'Object Repository/CURA Healthcare Service/Make Appointment/input_None_programs'
+2025-06-24 15:35:33.960 DEBUG c.k.k.c.w.keyword.builtin.ClickKeyword   - ✓ Object: 'Object Repository/CURA Healthcare Service/Make Appointment/input_None_programs' is clicked on
+2025-06-24 15:35:33.962 DEBUG t.Make An Appointment - Manually         - 6: setText(findTestObject("CURA Healthcare Service/Make Appointment/textarea_Comment_comment"), "This is a test comment")
+2025-06-24 15:35:33.962 DEBUG c.k.k.core.testobject.ObjectRepository   - Finding Test Object 'Object Repository/CURA Healthcare Service/Make Appointment/textarea_Comment_comment'
+2025-06-24 15:35:33.966 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking object
+2025-06-24 15:35:33.966 DEBUG c.k.k.c.w.k.builtin.SetTextKeyword       - Checking text
+2025-06-24 15:35:33.966 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-24 15:35:33.966 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:33.966 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Make Appointment/textarea_Comment_comment' located by 'By.xpath: //textarea[@id='txt_comment']' in '30' second(s)
+2025-06-24 15:35:33.967 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:35:34.195 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Make Appointment/textarea_Comment_comment' located by 'By.xpath: //textarea[@id='txt_comment']' in '30' second(s)
+2025-06-24 15:35:34.195 DEBUG c.k.k.c.w.k.builtin.SetTextKeyword       - Clearing text of object 'Object Repository/CURA Healthcare Service/Make Appointment/textarea_Comment_comment'
+2025-06-24 15:35:34.210 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-24 15:35:34.210 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:34.211 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Make Appointment/textarea_Comment_comment' located by 'By.xpath: //textarea[@id='txt_comment']' in '30' second(s)
+2025-06-24 15:35:34.211 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:35:34.442 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Make Appointment/textarea_Comment_comment' located by 'By.xpath: //textarea[@id='txt_comment']' in '30' second(s)
+2025-06-24 15:35:34.446 DEBUG c.k.k.c.w.k.builtin.SetTextKeyword       - Setting text of object 'Object Repository/CURA Healthcare Service/Make Appointment/textarea_Comment_comment' to value 'This is a test comment'
+2025-06-24 15:35:34.507 DEBUG c.k.k.c.w.k.builtin.SetTextKeyword       - ✓ Text 'This is a test comment' is set on object 'Object Repository/CURA Healthcare Service/Make Appointment/textarea_Comment_comment'
+2025-06-24 15:35:34.508 DEBUG t.Make An Appointment - Manually         - 7: setText(findTestObject("CURA Healthcare Service/Make Appointment/input_Visit Date (Required)_visit_date"), "25/7/2025")
+2025-06-24 15:35:34.509 DEBUG c.k.k.core.testobject.ObjectRepository   - Finding Test Object 'Object Repository/CURA Healthcare Service/Make Appointment/input_Visit Date (Required)_visit_date'
+2025-06-24 15:35:34.515 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking object
+2025-06-24 15:35:34.516 DEBUG c.k.k.c.w.k.builtin.SetTextKeyword       - Checking text
+2025-06-24 15:35:34.516 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-24 15:35:34.516 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:34.516 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Make Appointment/input_Visit Date (Required)_visit_date' located by 'By.xpath: //input[@id='txt_visit_date']' in '30' second(s)
+2025-06-24 15:35:34.516 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:35:34.737 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Make Appointment/input_Visit Date (Required)_visit_date' located by 'By.xpath: //input[@id='txt_visit_date']' in '30' second(s)
+2025-06-24 15:35:34.737 DEBUG c.k.k.c.w.k.builtin.SetTextKeyword       - Clearing text of object 'Object Repository/CURA Healthcare Service/Make Appointment/input_Visit Date (Required)_visit_date'
+2025-06-24 15:35:34.753 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-24 15:35:34.753 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:34.753 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Make Appointment/input_Visit Date (Required)_visit_date' located by 'By.xpath: //input[@id='txt_visit_date']' in '30' second(s)
+2025-06-24 15:35:34.754 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:35:34.982 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Make Appointment/input_Visit Date (Required)_visit_date' located by 'By.xpath: //input[@id='txt_visit_date']' in '30' second(s)
+2025-06-24 15:35:34.988 DEBUG c.k.k.c.w.k.builtin.SetTextKeyword       - Setting text of object 'Object Repository/CURA Healthcare Service/Make Appointment/input_Visit Date (Required)_visit_date' to value '25/7/2025'
+2025-06-24 15:35:35.045 DEBUG c.k.k.c.w.k.builtin.SetTextKeyword       - ✓ Text '25/7/2025' is set on object 'Object Repository/CURA Healthcare Service/Make Appointment/input_Visit Date (Required)_visit_date'
+2025-06-24 15:35:35.046 DEBUG t.Make An Appointment - Manually         - 8: click(findTestObject("CURA Healthcare Service/Make Appointment/button_Book Appointment"))
+2025-06-24 15:35:35.046 DEBUG c.k.k.core.testobject.ObjectRepository   - Finding Test Object 'Object Repository/CURA Healthcare Service/Make Appointment/button_Book Appointment'
+2025-06-24 15:35:35.050 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking object
+2025-06-24 15:35:35.051 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:35.051 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-24 15:35:35.051 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:35.051 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Make Appointment/button_Book Appointment' located by 'By.xpath: //button[@id='btn-book-appointment']' in '30' second(s)
+2025-06-24 15:35:35.051 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:35:35.493 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Make Appointment/button_Book Appointment' located by 'By.xpath: //button[@id='btn-book-appointment']' in '30' second(s)
+2025-06-24 15:35:35.493 DEBUG c.k.k.c.w.keyword.builtin.ClickKeyword   - Clicking on object: 'Object Repository/CURA Healthcare Service/Make Appointment/button_Book Appointment'
+2025-06-24 15:35:35.674 DEBUG c.k.k.c.w.keyword.builtin.ClickKeyword   - ✓ Object: 'Object Repository/CURA Healthcare Service/Make Appointment/button_Book Appointment' is clicked on
+2025-06-24 15:35:35.676 DEBUG t.Make An Appointment - Manually         - 9: verifyElementText(findTestObject("CURA Healthcare Service/Make Appointment/h2_Appointment Confirmation"), "Appointment Confirmation")
+2025-06-24 15:35:35.676 DEBUG c.k.k.core.testobject.ObjectRepository   - Finding Test Object 'Object Repository/CURA Healthcare Service/Make Appointment/h2_Appointment Confirmation'
+2025-06-24 15:35:35.680 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking object
+2025-06-24 15:35:35.680 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-24 15:35:35.681 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:35.681 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Make Appointment/h2_Appointment Confirmation' located by 'By.xpath: //section[@id='summary']/div/div/div/h2' in '30' second(s)
+2025-06-24 15:35:35.681 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:35:36.158 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Make Appointment/h2_Appointment Confirmation' located by 'By.xpath: //section[@id='summary']/div/div/div/h2' in '30' second(s)
+2025-06-24 15:35:36.164 DEBUG c.k.k.c.w.k.b.VerifyElementTextKeyword   - ✓ Actual text and expected text of test object 'Object Repository/CURA Healthcare Service/Make Appointment/h2_Appointment Confirmation' are matched.
+2025-06-24 15:35:36.165 DEBUG t.Make An Appointment - Manually         - 10: click(findTestObject("CURA Healthcare Service/Make Appointment/a_Go to Homepage"))
+2025-06-24 15:35:36.165 DEBUG c.k.k.core.testobject.ObjectRepository   - Finding Test Object 'Object Repository/CURA Healthcare Service/Make Appointment/a_Go to Homepage'
+2025-06-24 15:35:36.171 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking object
+2025-06-24 15:35:36.171 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:36.171 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element from Test Object's properties
+2025-06-24 15:35:36.171 DEBUG c.kms.katalon.core.helper.KeywordHelper  - Checking timeout
+2025-06-24 15:35:36.172 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Finding web element with id: 'Object Repository/CURA Healthcare Service/Make Appointment/a_Go to Homepage' located by 'By.xpath: //section[@id='summary']/div/div/div[7]/p/a' in '30' second(s)
+2025-06-24 15:35:36.172 DEBUG c.k.k.c.webui.common.internal.SmartWait  - Smart Wait Function is triggered
+2025-06-24 15:35:36.407 DEBUG c.k.k.c.webui.common.WebUiCommonHelper   - Found 1 web elements with id: 'Object Repository/CURA Healthcare Service/Make Appointment/a_Go to Homepage' located by 'By.xpath: //section[@id='summary']/div/div/div[7]/p/a' in '30' second(s)
+2025-06-24 15:35:36.408 DEBUG c.k.k.c.w.keyword.builtin.ClickKeyword   - Clicking on object: 'Object Repository/CURA Healthcare Service/Make Appointment/a_Go to Homepage'
+2025-06-24 15:35:36.625 DEBUG c.k.k.c.w.keyword.builtin.ClickKeyword   - ✓ Object: 'Object Repository/CURA Healthcare Service/Make Appointment/a_Go to Homepage' is clicked on
+2025-06-24 15:35:36.627 DEBUG t.Make An Appointment - Manually         - 11: if (n <= 1)
+2025-06-24 15:35:36.628 DEBUG t.Make An Appointment - Manually         - 3: closeBrowser()
+2025-06-24 15:35:36.637 DEBUG c.k.k.c.w.k.builtin.CloseBrowserKeyword  - Closing browser
+2025-06-24 15:35:36.941 DEBUG c.k.k.c.w.k.builtin.CloseBrowserKeyword  - ✓ Browser is closed
+2025-06-24 15:35:36.943 DEBUG t.Make An Appointment - Manually         - 4: Completed.Congrats("Tester")
+Congrats, Tester!
+2025-06-24 15:35:36.952 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - Completed.Congrats is PASSED
+2025-06-24 15:35:36.952 TRACE c.k.katalon.core.main.TestCaseExecutor   - END null: Completed.Congrats("Tester")
+2025-06-24 15:35:36.952 DEBUG c.k.katalon.core.main.TestCaseExecutor   - ✓ Test Cases/Week 2 - Keyword Driven Test/Make An Appointment - Manually
+2025-06-24 15:35:38.982 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Week 2 - Keyword Driven Test/Make An Appointment - Manually
+2025-06-24 15:35:39.007 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-06-24 15:35:39.007 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Regression
+2025-06-24 15:35:39.007 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

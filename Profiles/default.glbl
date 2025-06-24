@@ -4,4 +4,25 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description>This is the UserName to access the Cura HeathCare Service</description>
+      <initValue>'John Doe'</initValue>
+      <name>G_Cura_UserName</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>This is the Password to access the Cura HealthCare Service</description>
+      <initValue>''</initValue>
+      <name>G_Cura_Password</name>
+      <protected>true</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>The main URL to for the Cura HealthCare Service</description>
+      <initValue>'https://katalon-demo-cura.herokuapp.com/'</initValue>
+      <name>G_MainURL</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

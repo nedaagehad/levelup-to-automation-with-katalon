@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CustomKeywords.'Auth.Login'()
+CustomKeywords.'Auth.Login'(GlobalVariable.G_Cura_UserName, GlobalVariable.G_Cura_Password)
 
 for (def n : (0..2)) {
     WebUI.selectOptionByIndex(findTestObject('CURA Healthcare Service/Make Appointment/select_Tokyo CURA Healthcare Center        _5b4107'), 

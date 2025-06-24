@@ -19,7 +19,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable
 
 public class Completed {
-	
+
 	@Keyword
 	def Congrats (String studentName) {
 		println("Congrats, " + studentName + "!")

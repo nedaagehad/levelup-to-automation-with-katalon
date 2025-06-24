@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Regression,Firefox 139.0.4,Testing all Test Cases for the Cura HealthCare Service,,24-06-2025 15:37:38,24-06-2025 15:39:29,1m - 50.862s,PASSED
+,,,,,,,
+Test Cases/Reusable Modules/Login,Firefox 139.0.4,This test case to is to test the login functionality with valid user credentials.,,24-06-2025 15:37:39,24-06-2025 15:37:59,19.741s,PASSED
+"DATA BINDING - {""(Default) UserN..."":"""",""(Default) Passw..."":""********""}",,,,,,,
+"openBrowser("""")",Firefox 139.0.4,,,24-06-2025 15:37:41,24-06-2025 15:37:52,10.944s,PASSED
+navigateToUrl(G_MainURL),Firefox 139.0.4,,,24-06-2025 15:37:52,24-06-2025 15:37:54,2.085s,PASSED
+"click(findTestObject(""Object Repository/CURA Healthcare Service/Home Page/a_Make Appointment""))",Firefox 139.0.4,,,24-06-2025 15:37:54,24-06-2025 15:37:54,0.679s,PASSED
+if (!(UserName)),Firefox 139.0.4,,,24-06-2025 15:37:54,24-06-2025 15:37:55,0.016s,PASSED
+if (!(Password)),Firefox 139.0.4,,,24-06-2025 15:37:55,24-06-2025 15:37:55,0.008s,PASSED
+"setText(findTestObject(""Object Repository/CURA Healthcare Service/Login/input_Username_username""), UserName)",Firefox 139.0.4,,,24-06-2025 15:37:55,24-06-2025 15:37:55,0.837s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/CURA Healthcare Service/Login/input_Password_password""), Auth.EncryptText(Password))",Firefox 139.0.4,,,24-06-2025 15:37:55,24-06-2025 15:37:56,0.579s,PASSED
+"click(findTestObject(""Object Repository/CURA Healthcare Service/Login/button_Login""))",Firefox 139.0.4,,,24-06-2025 15:37:56,24-06-2025 15:37:57,0.771s,PASSED
+"verifyElementText(findTestObject(""Object Repository/CURA Healthcare Service/Home Page/h2_Make Appointment""), ""Make Appointment"")",Firefox 139.0.4,,,24-06-2025 15:37:57,24-06-2025 15:37:57,0.415s,PASSED
+,,,,,,,
+Test Cases/Week 1 - Kickstart Test Automation/Check User Profile,Firefox 139.0.4,,,24-06-2025 15:37:59,24-06-2025 15:38:16,16.842s,PASSED
+"callTestCase(findTestCase(""Reusable Modules/Login""), [""UserName"":findTestData(""User Credentials - Internal"").getValue(""UserName"", 1), ""Password"":findTestData(""User Credentials - Internal"").getValue(""Password"", 1)], STOP_ON_FAILURE)",Firefox 139.0.4,,,24-06-2025 15:37:59,24-06-2025 15:38:13,13.113s,PASSED
+"click(findTestObject(""Object Repository/CURA Healthcare Service/Home Page/i_fa fa-bars""))",Firefox 139.0.4,,,24-06-2025 15:38:13,24-06-2025 15:38:13,0.513s,PASSED
+"click(findTestObject(""Object Repository/CURA Healthcare Service/Home Page/a_Profile""))",Firefox 139.0.4,,,24-06-2025 15:38:13,24-06-2025 15:38:14,0.539s,PASSED
+"verifyElementText(findTestObject(""Object Repository/CURA Healthcare Service/Home Page/h2_Profile""), ""Profile"")",Firefox 139.0.4,,,24-06-2025 15:38:14,24-06-2025 15:38:14,0.422s,PASSED
+,,,,,,,
+Test Cases/Week 1 - Kickstart Test Automation/Logout User,Firefox 139.0.4,,,24-06-2025 15:38:16,24-06-2025 15:38:34,18.044s,PASSED
+"callTestCase(findTestCase(""Reusable Modules/Login""), [""UserName"":findTestData(""Valid User Credentials"").getValue(""UserName"", 1), ""Password"":findTestData(""Valid User Credentials"").getValue(""Password"", 1)], STOP_ON_FAILURE)",Firefox 139.0.4,,,24-06-2025 15:38:16,24-06-2025 15:38:30,13.654s,PASSED
+"callTestCase(findTestCase(""Reusable Modules/Logout""), [:], STOP_ON_FAILURE)",Firefox 139.0.4,,,24-06-2025 15:38:30,24-06-2025 15:38:32,2.169s,PASSED
+,,,,,,,
+Test Cases/Week 1 - Kickstart Test Automation/Reserve A Medical Appointment,Firefox 139.0.4,,,24-06-2025 15:38:34,24-06-2025 15:38:59,24.435s,PASSED
+"callTestCase(findTestCase(""Reusable Modules/Login""), [""UserName"":findTestData(""Valid User Credentials"").getValue(""UserName"", 1), ""Password"":findTestData(""Valid User Credentials"").getValue(""Password"", 1)], STOP_ON_FAILURE)",Firefox 139.0.4,,,24-06-2025 15:38:34,24-06-2025 15:38:49,15.085s,PASSED
+"callTestCase(findTestCase(""Reusable Modules/Make Appointment""), [:], STOP_ON_FAILURE)",Firefox 139.0.4,,,24-06-2025 15:38:49,24-06-2025 15:38:54,5.052s,PASSED
+"callTestCase(findTestCase(""Reusable Modules/Logout""), [:], STOP_ON_FAILURE)",Firefox 139.0.4,,,24-06-2025 15:38:54,24-06-2025 15:38:57,2.150s,PASSED
+,,,,,,,
+Test Cases/Week 2 - Keyword Driven Test/Make An Appointment - Manually,Firefox 139.0.4,,,24-06-2025 15:38:59,24-06-2025 15:39:29,30.343s,PASSED
+"Auth.Login(G_Cura_UserName, G_Cura_Password)",Firefox 139.0.4,,,24-06-2025 15:38:59,24-06-2025 15:39:10,11.352s,PASSED
+for (def n : (0..2)),Firefox 139.0.4,,,24-06-2025 15:39:10,24-06-2025 15:39:26,16.091s,PASSED
+closeBrowser(),Firefox 139.0.4,,,24-06-2025 15:39:26,24-06-2025 15:39:27,0.643s,PASSED
+"Completed.Congrats(""Tester"")",Firefox 139.0.4,,,24-06-2025 15:39:27,24-06-2025 15:39:27,0.008s,PASSED

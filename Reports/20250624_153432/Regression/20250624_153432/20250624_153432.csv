@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Regression,Chrome 137.0.7151.119,Testing all Test Cases for the Cura HealthCare Service,,24-06-2025 15:34:35,24-06-2025 15:35:39,1m - 3.149s,PASSED
+,,,,,,,
+Test Cases/Reusable Modules/Login,Chrome 137.0.7151.119,This test case to is to test the login functionality with valid user credentials.,,24-06-2025 15:34:36,24-06-2025 15:34:45,9.349s,PASSED
+"DATA BINDING - {""(Default) UserN..."":"""",""(Default) Passw..."":""********""}",,,,,,,
+"openBrowser("""")",Chrome 137.0.7151.119,,,24-06-2025 15:34:37,24-06-2025 15:34:39,2.126s,PASSED
+navigateToUrl(G_MainURL),Chrome 137.0.7151.119,,,24-06-2025 15:34:39,24-06-2025 15:34:41,1.820s,PASSED
+"click(findTestObject(""Object Repository/CURA Healthcare Service/Home Page/a_Make Appointment""))",Chrome 137.0.7151.119,,,24-06-2025 15:34:41,24-06-2025 15:34:41,0.600s,PASSED
+if (!(UserName)),Chrome 137.0.7151.119,,,24-06-2025 15:34:41,24-06-2025 15:34:41,0.008s,PASSED
+if (!(Password)),Chrome 137.0.7151.119,,,24-06-2025 15:34:41,24-06-2025 15:34:41,0.005s,PASSED
+"setText(findTestObject(""Object Repository/CURA Healthcare Service/Login/input_Username_username""), UserName)",Chrome 137.0.7151.119,,,24-06-2025 15:34:41,24-06-2025 15:34:42,0.672s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/CURA Healthcare Service/Login/input_Password_password""), Auth.EncryptText(Password))",Chrome 137.0.7151.119,,,24-06-2025 15:34:42,24-06-2025 15:34:42,0.328s,PASSED
+"click(findTestObject(""Object Repository/CURA Healthcare Service/Login/button_Login""))",Chrome 137.0.7151.119,,,24-06-2025 15:34:42,24-06-2025 15:34:43,0.564s,PASSED
+"verifyElementText(findTestObject(""Object Repository/CURA Healthcare Service/Home Page/h2_Make Appointment""), ""Make Appointment"")",Chrome 137.0.7151.119,,,24-06-2025 15:34:43,24-06-2025 15:34:43,0.504s,PASSED
+,,,,,,,
+Test Cases/Week 1 - Kickstart Test Automation/Check User Profile,Chrome 137.0.7151.119,,,24-06-2025 15:34:45,24-06-2025 15:34:54,9.113s,PASSED
+"callTestCase(findTestCase(""Reusable Modules/Login""), [""UserName"":findTestData(""User Credentials - Internal"").getValue(""UserName"", 1), ""Password"":findTestData(""User Credentials - Internal"").getValue(""Password"", 1)], STOP_ON_FAILURE)",Chrome 137.0.7151.119,,,24-06-2025 15:34:45,24-06-2025 15:34:51,5.798s,PASSED
+"click(findTestObject(""Object Repository/CURA Healthcare Service/Home Page/i_fa fa-bars""))",Chrome 137.0.7151.119,,,24-06-2025 15:34:51,24-06-2025 15:34:51,0.277s,PASSED
+"click(findTestObject(""Object Repository/CURA Healthcare Service/Home Page/a_Profile""))",Chrome 137.0.7151.119,,,24-06-2025 15:34:51,24-06-2025 15:34:52,0.459s,PASSED
+"verifyElementText(findTestObject(""Object Repository/CURA Healthcare Service/Home Page/h2_Profile""), ""Profile"")",Chrome 137.0.7151.119,,,24-06-2025 15:34:52,24-06-2025 15:34:52,0.462s,PASSED
+,,,,,,,
+Test Cases/Week 1 - Kickstart Test Automation/Logout User,Chrome 137.0.7151.119,,,24-06-2025 15:34:54,24-06-2025 15:35:04,9.785s,PASSED
+"callTestCase(findTestCase(""Reusable Modules/Login""), [""UserName"":findTestData(""Valid User Credentials"").getValue(""UserName"", 1), ""Password"":findTestData(""Valid User Credentials"").getValue(""Password"", 1)], STOP_ON_FAILURE)",Chrome 137.0.7151.119,,,24-06-2025 15:34:54,24-06-2025 15:35:01,6.084s,PASSED
+"callTestCase(findTestCase(""Reusable Modules/Logout""), [:], STOP_ON_FAILURE)",Chrome 137.0.7151.119,,,24-06-2025 15:35:01,24-06-2025 15:35:02,1.623s,PASSED
+,,,,,,,
+Test Cases/Week 1 - Kickstart Test Automation/Reserve A Medical Appointment,Chrome 137.0.7151.119,,,24-06-2025 15:35:04,24-06-2025 15:35:17,13.217s,PASSED
+"callTestCase(findTestCase(""Reusable Modules/Login""), [""UserName"":findTestData(""Valid User Credentials"").getValue(""UserName"", 1), ""Password"":findTestData(""Valid User Credentials"").getValue(""Password"", 1)], STOP_ON_FAILURE)",Chrome 137.0.7151.119,,,24-06-2025 15:35:04,24-06-2025 15:35:10,5.669s,PASSED
+"callTestCase(findTestCase(""Reusable Modules/Make Appointment""), [:], STOP_ON_FAILURE)",Chrome 137.0.7151.119,,,24-06-2025 15:35:10,24-06-2025 15:35:14,3.897s,PASSED
+"callTestCase(findTestCase(""Reusable Modules/Logout""), [:], STOP_ON_FAILURE)",Chrome 137.0.7151.119,,,24-06-2025 15:35:14,24-06-2025 15:35:15,1.579s,PASSED
+,,,,,,,
+Test Cases/Week 2 - Keyword Driven Test/Make An Appointment - Manually,Chrome 137.0.7151.119,,,24-06-2025 15:35:17,24-06-2025 15:35:38,21.060s,PASSED
+"Auth.Login(G_Cura_UserName, G_Cura_Password)",Chrome 137.0.7151.119,,,24-06-2025 15:35:18,24-06-2025 15:35:23,4.997s,PASSED
+for (def n : (0..2)),Chrome 137.0.7151.119,,,24-06-2025 15:35:23,24-06-2025 15:35:36,13.608s,PASSED
+closeBrowser(),Chrome 137.0.7151.119,,,24-06-2025 15:35:36,24-06-2025 15:35:36,0.315s,PASSED
+"Completed.Congrats(""Tester"")",Chrome 137.0.7151.119,,,24-06-2025 15:35:36,24-06-2025 15:35:36,0.009s,PASSED

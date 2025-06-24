@@ -19,13 +19,22 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
+WebUI.navigateToUrl(GlobalVariable.G_MainURL)
 
 WebUI.click(findTestObject('Object Repository/CURA Healthcare Service/Home Page/a_Make Appointment'))
 
+if (!UserName) {
+	UserName = GlobalVariable.G_Cura_UserName
+}
+
+if (!Password) {
+	Password = GlobalVariable.G_Cura_Password
+}
+
 WebUI.setText(findTestObject('Object Repository/CURA Healthcare Service/Login/input_Username_username'), UserName)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/CURA Healthcare Service/Login/input_Password_password'), Password)
+WebUI.setEncryptedText(findTestObject('Object Repository/CURA Healthcare Service/Login/input_Password_password'), CustomKeywords.'Auth.EncryptText'(
+        Password))
 
 WebUI.click(findTestObject('Object Repository/CURA Healthcare Service/Login/button_Login'))
 

@@ -17,12 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Reusable Modules/Login'), [('UserName') : findTestData('User Credentials - Internal').getValue(
-            'UserName', 1), ('Password') : findTestData('User Credentials - Internal').getValue('Password', 1)], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Reusable Modules/Login'), [('UserName') : findTestData('Valid User Credentials').getValue(
+            'UserName', 1), ('Password') : findTestData('Valid User Credentials').getValue('Password', 1)], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/CURA Healthcare Service/Home Page/i_fa fa-bars'))
-
-WebUI.click(findTestObject('Object Repository/CURA Healthcare Service/Home Page/a_Profile'))
-
-WebUI.verifyElementText(findTestObject('Object Repository/CURA Healthcare Service/Home Page/h2_Profile'), 'Profile')
+WebUI.callTestCase(findTestCase('Reusable Modules/Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 

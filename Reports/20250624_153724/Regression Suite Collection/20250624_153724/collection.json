@@ -1,0 +1,14 @@
+{
+  "id": "Test Suites/Regression Suite Collection",
+  "name": "Regression Suite Collection",
+  "reportFolder": "C:\\Users\\user\\Katalon Studio\\Levelup To Automation With Katalon\\Reports\\20250624_153724\\Regression Suite Collection\\20250624_153724",
+  "startTime": 1750768655993,
+  "endTime": 1750768769946,
+  "totalPassedTestCases": "20",
+  "totalErrorTestCases": "0",
+  "totalFailedTestCases": "0",
+  "totalTestCases": "20",
+  "totalIncompleteTestCases": "0",
+  "totalSkippedTestCases": "0",
+  "description": ""
+}

@@ -1,35 +1,76 @@
-# ⬆️ Level up to Automation with Katalon:
+# ⬆️ Level up to Automation Testing with Katalon 🧪
 
-This project serves as the applied hands-on practice for what I've learned from the [**Leveling up from a manual tester to an automation beginner (with Katalon Studio)**](https://academy.katalon.com/learning-path/fresher-automation-engineer/) learning path.
+This project serves as hands-on practice for what I've learned from the 
+[**"Leveling up from a manual tester to an automation beginner (with Katalon Studio)"**](https://academy.katalon.com/learning-path/fresher-automation-engineer/) learning path.
 
-![It's Automated!](image-1.png)
+<br>
+
+![It's Automation, Baby!](./automation-audio-engineer.gif)
+
+<br>
 
 ### ✅ What's in this project:
 
 <hr>
 
-1. Creating test cases using the Katalon record/playback feature.
-2. Capturing objects using the katalon spy feature.
-12. Adding data files to prepare for data binding in test cases.
-13. Recording test cases from active browsers using the Katalon studio recording engine extension.
-14. Creating more complex test cases using loops and conditions.
-3. Creating test cases by manually adding steps and drag/drop objects.
-4. Using the script interface to create test case scripts from scratch using predefined classes.
-5. Arranging objects into structured, functionality-related folders.
-6. Creating variables in test cases.
-7. Abstracting test cases and calling them in other test cases when needed.
-8. Integerating with github to handle version control actions.
-9. Creating test Suites.
-10. Arranging test suites in collections to test handle concurrent and sequential tests on various browsers.
-11. Using Katalon Studio Recording Engine Extension to record test cases from active browsers.
-15. Creating and using custom keywords in test cases.
+* Creating test cases using the **Katalon Record/Playback** feature.
+* Capturing objects using the **Katalon Spy** feature.
+* Adding **Data Files** for data binding in test cases.
+* Creating more complex test cases using **Loops** and **Conditions**.
+* Creating test cases by manually adding steps and drag/drop objects.
+* Using the script interface to create test case scripts from scratch using predefined classes.
+* Arranging objects into structured, functionality-related folders.
+* Creating **Local** and **Global** Variables to use them dynamically in test cases.
+* Abstracting test cases and calling them in other test cases when needed.
+* Integrating with **Github** to handle version control actions.
+* Creating **Test Suites**.
+* Arranging **Test Suites** in **Test Suite Collections** to handle <u>***Concurrent***</u> and <u>***sequential***</u> tests on various browsers.
+* Using **Katalon Studio Recording Engine Extension** to record test cases from active browsers.
+* Creating and using **Custom Keywords** in test cases.
+
+<br>
 
 
 ### ❌ What's <u>NOT</u> in this project (***due to Katalon free version limitations***):
 
 <hr>
 
-1. Testing Data Binding and Data Driven tests.
-2. Self healing.
-3. StudioAssist.
+* Data Binding.
+* Self Healing.
+* StudioAssist.
+* Debugging.
+* Some Reporting features.
+
+<br>
+
+### 🧗 Challenges:
+
+<hr>
+
+* **Password Encryption:**
+
+When passing **User Credentials** to the **Login Test Case**, The Test <u>*fails*</u> because it expects the **Password** to be **"encrypted"** and since the credentials were stored in **Global Variables** and **Data Files** without encryption, it was necessary to introduce a solution were the Password is being encrypted <u>*before*</u> setting the Input value.
+
+***Solution:*** Create a **Custome Keyword** That can be used as a **Method Call** to set the Password Input Value.
+
+```{groovy}
+import com.kms.katalon.util.CryptoUtil
+
+@Keyword
+	def EncryptText (String PlainText) {
+		return CryptoUtil.encodeSensitiveInfo(PlainText)
+	}
+
+```
+
+<br>
+
+### 🔗 Useful Links:
+
+<hr>
+
+* [**Katalon Studio Docs.**](https://docs.katalon.com/katalon-studio/about-katalon-studio)
+* [**Activating browser-based video recording.**](https://docs.katalon.com/katalon-studio/test-reports/generate-test-reports/generate-browser-based-videos-in-katalon-studio-reports)
+* [**Groovy Tutorials.**](https://www.tutorialspoint.com/groovy/index.htm)
+
 
